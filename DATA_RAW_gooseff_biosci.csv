@@ -73,110 +73,110 @@ soil,nematodes,2009,total_live,Scottnema,Scottnema total live,363.7672008,# indi
 soil,nematodes,2009,total_live,Eudorylaimus,Eudorylaimus total live,27.68495315,# individuals/kg dry soil
 soil,nematodes,2012,total_live,Scottnema,Scottnema total live,715.3279044,# individuals/kg dry soil
 soil,nematodes,2012,total_live,Eudorylaimus,Eudorylaimus total live,40.03872297,# individuals/kg dry soil
-lake,lake_ice_thickness,1988,,FRX,FRX ice (m),,m
-lake,lake_ice_thickness,1988,,HOR,HOR ice (m),,m
-lake,lake_ice_thickness,1988,,ELB,ELB ice (m),,m
-lake,lake_ice_thickness,1988,,WLB,WLB ice (m),,m
-lake,lake_ice_thickness,1989,,FRX,FRX ice (m),,m
-lake,lake_ice_thickness,1989,,HOR,HOR ice (m),,m
-lake,lake_ice_thickness,1989,,ELB,ELB ice (m),,m
-lake,lake_ice_thickness,1989,,WLB,WLB ice (m),,m
-lake,lake_ice_thickness,1990,,FRX,FRX ice (m),,m
-lake,lake_ice_thickness,1990,,HOR,HOR ice (m),,m
-lake,lake_ice_thickness,1990,,ELB,ELB ice (m),3.9,m
-lake,lake_ice_thickness,1990,,WLB,WLB ice (m),3.75,m
-lake,lake_ice_thickness,1991,,FRX,FRX ice (m),4.45,m
-lake,lake_ice_thickness,1991,,HOR,HOR ice (m),,m
-lake,lake_ice_thickness,1991,,ELB,ELB ice (m),3.74,m
-lake,lake_ice_thickness,1991,,WLB,WLB ice (m),,m
-lake,lake_ice_thickness,1992,,FRX,FRX ice (m),,m
-lake,lake_ice_thickness,1992,,HOR,HOR ice (m),,m
-lake,lake_ice_thickness,1992,,ELB,ELB ice (m),,m
-lake,lake_ice_thickness,1992,,WLB,WLB ice (m),,m
-lake,lake_ice_thickness,1993,,FRX,FRX ice (m),,m
-lake,lake_ice_thickness,1993,,HOR,HOR ice (m),,m
-lake,lake_ice_thickness,1993,,ELB,ELB ice (m),,m
-lake,lake_ice_thickness,1993,,WLB,WLB ice (m),,m
-lake,lake_ice_thickness,1994,,FRX,FRX ice (m),,m
-lake,lake_ice_thickness,1994,,HOR,HOR ice (m),,m
-lake,lake_ice_thickness,1994,,ELB,ELB ice (m),,m
-lake,lake_ice_thickness,1994,,WLB,WLB ice (m),3.5,m
-lake,lake_ice_thickness,1995,,FRX,FRX ice (m),,m
-lake,lake_ice_thickness,1995,,HOR,HOR ice (m),,m
-lake,lake_ice_thickness,1995,,ELB,ELB ice (m),,m
-lake,lake_ice_thickness,1995,,WLB,WLB ice (m),3.25,m
-lake,lake_ice_thickness,1996,,FRX,FRX ice (m),4.544,m
-lake,lake_ice_thickness,1996,,HOR,HOR ice (m),4.72,m
-lake,lake_ice_thickness,1996,,ELB,ELB ice (m),3.94,m
-lake,lake_ice_thickness,1996,,WLB,WLB ice (m),3.926666667,m
-lake,lake_ice_thickness,1997,,FRX,FRX ice (m),4.241666667,m
-lake,lake_ice_thickness,1997,,HOR,HOR ice (m),4.746923077,m
-lake,lake_ice_thickness,1997,,ELB,ELB ice (m),4.174444444,m
-lake,lake_ice_thickness,1997,,WLB,WLB ice (m),3.988333333,m
-lake,lake_ice_thickness,1998,,FRX,FRX ice (m),4.371666667,m
-lake,lake_ice_thickness,1998,,HOR,HOR ice (m),4.879,m
-lake,lake_ice_thickness,1998,,ELB,ELB ice (m),4.175,m
-lake,lake_ice_thickness,1998,,WLB,WLB ice (m),3.962727273,m
-lake,lake_ice_thickness,1999,,FRX,FRX ice (m),4.9,m
-lake,lake_ice_thickness,1999,,HOR,HOR ice (m),5.314166667,m
-lake,lake_ice_thickness,1999,,ELB,ELB ice (m),4.48,m
-lake,lake_ice_thickness,1999,,WLB,WLB ice (m),4.340909091,m
-lake,lake_ice_thickness,2000,,FRX,FRX ice (m),5.167,m
-lake,lake_ice_thickness,2000,,HOR,HOR ice (m),5.2675,m
-lake,lake_ice_thickness,2000,,ELB,ELB ice (m),4.66,m
-lake,lake_ice_thickness,2000,,WLB,WLB ice (m),4.315,m
-lake,lake_ice_thickness,2001,,FRX,FRX ice (m),4.977777778,m
-lake,lake_ice_thickness,2001,,HOR,HOR ice (m),5.075,m
-lake,lake_ice_thickness,2001,,ELB,ELB ice (m),4.746,m
-lake,lake_ice_thickness,2001,,WLB,WLB ice (m),4.33,m
-lake,lake_ice_thickness,2002,,FRX,FRX ice (m),5.391,m
-lake,lake_ice_thickness,2002,,HOR,HOR ice (m),5.77,m
-lake,lake_ice_thickness,2002,,ELB,ELB ice (m),4.881428571,m
-lake,lake_ice_thickness,2002,,WLB,WLB ice (m),4.441666667,m
-lake,lake_ice_thickness,2003,,FRX,FRX ice (m),5.333333333,m
-lake,lake_ice_thickness,2003,,HOR,HOR ice (m),4.12,m
-lake,lake_ice_thickness,2003,,ELB,ELB ice (m),4.634,m
-lake,lake_ice_thickness,2003,,WLB,WLB ice (m),4.104285714,m
-lake,lake_ice_thickness,2004,,FRX,FRX ice (m),5.573333333,m
-lake,lake_ice_thickness,2004,,HOR,HOR ice (m),4.215,m
-lake,lake_ice_thickness,2004,,ELB,ELB ice (m),4.744,m
-lake,lake_ice_thickness,2004,,WLB,WLB ice (m),4.013,m
-lake,lake_ice_thickness,2005,,FRX,FRX ice (m),6,m
-lake,lake_ice_thickness,2005,,HOR,HOR ice (m),3.836666667,m
-lake,lake_ice_thickness,2005,,ELB,ELB ice (m),4.883333333,m
-lake,lake_ice_thickness,2005,,WLB,WLB ice (m),3.933333333,m
-lake,lake_ice_thickness,2006,,FRX,FRX ice (m),5.913333333,m
-lake,lake_ice_thickness,2006,,HOR,HOR ice (m),3.84,m
-lake,lake_ice_thickness,2006,,ELB,ELB ice (m),4.388571429,m
-lake,lake_ice_thickness,2006,,WLB,WLB ice (m),3.968,m
-lake,lake_ice_thickness,2007,,FRX,FRX ice (m),5.46,m
-lake,lake_ice_thickness,2007,,HOR,HOR ice (m),3.655,m
-lake,lake_ice_thickness,2007,,ELB,ELB ice (m),3.603333333,m
-lake,lake_ice_thickness,2007,,WLB,WLB ice (m),3.89,m
-lake,lake_ice_thickness,2008,,FRX,FRX ice (m),4.618,m
-lake,lake_ice_thickness,2008,,HOR,HOR ice (m),3.392,m
-lake,lake_ice_thickness,2008,,ELB,ELB ice (m),3.511,m
-lake,lake_ice_thickness,2008,,WLB,WLB ice (m),3.646,m
-lake,lake_ice_thickness,2009,,FRX,FRX ice (m),4.28875,m
-lake,lake_ice_thickness,2009,,HOR,HOR ice (m),3.404285714,m
-lake,lake_ice_thickness,2009,,ELB,ELB ice (m),3.435,m
-lake,lake_ice_thickness,2009,,WLB,WLB ice (m),3.688,m
-lake,lake_ice_thickness,2010,,FRX,FRX ice (m),3.87,m
-lake,lake_ice_thickness,2010,,HOR,HOR ice (m),3.366,m
-lake,lake_ice_thickness,2010,,ELB,ELB ice (m),3.552857143,m
-lake,lake_ice_thickness,2010,,WLB,WLB ice (m),3.544,m
-lake,lake_ice_thickness,2011,,FRX,FRX ice (m),4.25,m
-lake,lake_ice_thickness,2011,,HOR,HOR ice (m),3.8125,m
-lake,lake_ice_thickness,2011,,ELB,ELB ice (m),3.86,m
-lake,lake_ice_thickness,2011,,WLB,WLB ice (m),3.7775,m
-lake,lake_ice_thickness,2012,,FRX,FRX ice (m),4.3925,m
-lake,lake_ice_thickness,2012,,HOR,HOR ice (m),3.654,m
-lake,lake_ice_thickness,2012,,ELB,ELB ice (m),3.786,m
-lake,lake_ice_thickness,2012,,WLB,WLB ice (m),3.656,m
-lake,lake_ice_thickness,2013,,FRX,FRX ice (m),4.282,m
-lake,lake_ice_thickness,2013,,HOR,HOR ice (m),3.85,m
-lake,lake_ice_thickness,2013,,ELB,ELB ice (m),3.89,m
-lake,lake_ice_thickness,2013,,WLB,WLB ice (m),3.635,m
+lake,lake_ice_thickness,1988,ice_thickness,FRX,FRX ice (m),,m
+lake,lake_ice_thickness,1988,ice_thickness,HOR,HOR ice (m),,m
+lake,lake_ice_thickness,1988,ice_thickness,ELB,ELB ice (m),,m
+lake,lake_ice_thickness,1988,ice_thickness,WLB,WLB ice (m),,m
+lake,lake_ice_thickness,1989,ice_thickness,FRX,FRX ice (m),,m
+lake,lake_ice_thickness,1989,ice_thickness,HOR,HOR ice (m),,m
+lake,lake_ice_thickness,1989,ice_thickness,ELB,ELB ice (m),,m
+lake,lake_ice_thickness,1989,ice_thickness,WLB,WLB ice (m),,m
+lake,lake_ice_thickness,1990,ice_thickness,FRX,FRX ice (m),,m
+lake,lake_ice_thickness,1990,ice_thickness,HOR,HOR ice (m),,m
+lake,lake_ice_thickness,1990,ice_thickness,ELB,ELB ice (m),3.9,m
+lake,lake_ice_thickness,1990,ice_thickness,WLB,WLB ice (m),3.75,m
+lake,lake_ice_thickness,1991,ice_thickness,FRX,FRX ice (m),4.45,m
+lake,lake_ice_thickness,1991,ice_thickness,HOR,HOR ice (m),,m
+lake,lake_ice_thickness,1991,ice_thickness,ELB,ELB ice (m),3.74,m
+lake,lake_ice_thickness,1991,ice_thickness,WLB,WLB ice (m),,m
+lake,lake_ice_thickness,1992,ice_thickness,FRX,FRX ice (m),,m
+lake,lake_ice_thickness,1992,ice_thickness,HOR,HOR ice (m),,m
+lake,lake_ice_thickness,1992,ice_thickness,ELB,ELB ice (m),,m
+lake,lake_ice_thickness,1992,ice_thickness,WLB,WLB ice (m),,m
+lake,lake_ice_thickness,1993,ice_thickness,FRX,FRX ice (m),,m
+lake,lake_ice_thickness,1993,ice_thickness,HOR,HOR ice (m),,m
+lake,lake_ice_thickness,1993,ice_thickness,ELB,ELB ice (m),,m
+lake,lake_ice_thickness,1993,ice_thickness,WLB,WLB ice (m),,m
+lake,lake_ice_thickness,1994,ice_thickness,FRX,FRX ice (m),,m
+lake,lake_ice_thickness,1994,ice_thickness,HOR,HOR ice (m),,m
+lake,lake_ice_thickness,1994,ice_thickness,ELB,ELB ice (m),,m
+lake,lake_ice_thickness,1994,ice_thickness,WLB,WLB ice (m),3.5,m
+lake,lake_ice_thickness,1995,ice_thickness,FRX,FRX ice (m),,m
+lake,lake_ice_thickness,1995,ice_thickness,HOR,HOR ice (m),,m
+lake,lake_ice_thickness,1995,ice_thickness,ELB,ELB ice (m),,m
+lake,lake_ice_thickness,1995,ice_thickness,WLB,WLB ice (m),3.25,m
+lake,lake_ice_thickness,1996,ice_thickness,FRX,FRX ice (m),4.544,m
+lake,lake_ice_thickness,1996,ice_thickness,HOR,HOR ice (m),4.72,m
+lake,lake_ice_thickness,1996,ice_thickness,ELB,ELB ice (m),3.94,m
+lake,lake_ice_thickness,1996,ice_thickness,WLB,WLB ice (m),3.926666667,m
+lake,lake_ice_thickness,1997,ice_thickness,FRX,FRX ice (m),4.241666667,m
+lake,lake_ice_thickness,1997,ice_thickness,HOR,HOR ice (m),4.746923077,m
+lake,lake_ice_thickness,1997,ice_thickness,ELB,ELB ice (m),4.174444444,m
+lake,lake_ice_thickness,1997,ice_thickness,WLB,WLB ice (m),3.988333333,m
+lake,lake_ice_thickness,1998,ice_thickness,FRX,FRX ice (m),4.371666667,m
+lake,lake_ice_thickness,1998,ice_thickness,HOR,HOR ice (m),4.879,m
+lake,lake_ice_thickness,1998,ice_thickness,ELB,ELB ice (m),4.175,m
+lake,lake_ice_thickness,1998,ice_thickness,WLB,WLB ice (m),3.962727273,m
+lake,lake_ice_thickness,1999,ice_thickness,FRX,FRX ice (m),4.9,m
+lake,lake_ice_thickness,1999,ice_thickness,HOR,HOR ice (m),5.314166667,m
+lake,lake_ice_thickness,1999,ice_thickness,ELB,ELB ice (m),4.48,m
+lake,lake_ice_thickness,1999,ice_thickness,WLB,WLB ice (m),4.340909091,m
+lake,lake_ice_thickness,2000,ice_thickness,FRX,FRX ice (m),5.167,m
+lake,lake_ice_thickness,2000,ice_thickness,HOR,HOR ice (m),5.2675,m
+lake,lake_ice_thickness,2000,ice_thickness,ELB,ELB ice (m),4.66,m
+lake,lake_ice_thickness,2000,ice_thickness,WLB,WLB ice (m),4.315,m
+lake,lake_ice_thickness,2001,ice_thickness,FRX,FRX ice (m),4.977777778,m
+lake,lake_ice_thickness,2001,ice_thickness,HOR,HOR ice (m),5.075,m
+lake,lake_ice_thickness,2001,ice_thickness,ELB,ELB ice (m),4.746,m
+lake,lake_ice_thickness,2001,ice_thickness,WLB,WLB ice (m),4.33,m
+lake,lake_ice_thickness,2002,ice_thickness,FRX,FRX ice (m),5.391,m
+lake,lake_ice_thickness,2002,ice_thickness,HOR,HOR ice (m),5.77,m
+lake,lake_ice_thickness,2002,ice_thickness,ELB,ELB ice (m),4.881428571,m
+lake,lake_ice_thickness,2002,ice_thickness,WLB,WLB ice (m),4.441666667,m
+lake,lake_ice_thickness,2003,ice_thickness,FRX,FRX ice (m),5.333333333,m
+lake,lake_ice_thickness,2003,ice_thickness,HOR,HOR ice (m),4.12,m
+lake,lake_ice_thickness,2003,ice_thickness,ELB,ELB ice (m),4.634,m
+lake,lake_ice_thickness,2003,ice_thickness,WLB,WLB ice (m),4.104285714,m
+lake,lake_ice_thickness,2004,ice_thickness,FRX,FRX ice (m),5.573333333,m
+lake,lake_ice_thickness,2004,ice_thickness,HOR,HOR ice (m),4.215,m
+lake,lake_ice_thickness,2004,ice_thickness,ELB,ELB ice (m),4.744,m
+lake,lake_ice_thickness,2004,ice_thickness,WLB,WLB ice (m),4.013,m
+lake,lake_ice_thickness,2005,ice_thickness,FRX,FRX ice (m),6,m
+lake,lake_ice_thickness,2005,ice_thickness,HOR,HOR ice (m),3.836666667,m
+lake,lake_ice_thickness,2005,ice_thickness,ELB,ELB ice (m),4.883333333,m
+lake,lake_ice_thickness,2005,ice_thickness,WLB,WLB ice (m),3.933333333,m
+lake,lake_ice_thickness,2006,ice_thickness,FRX,FRX ice (m),5.913333333,m
+lake,lake_ice_thickness,2006,ice_thickness,HOR,HOR ice (m),3.84,m
+lake,lake_ice_thickness,2006,ice_thickness,ELB,ELB ice (m),4.388571429,m
+lake,lake_ice_thickness,2006,ice_thickness,WLB,WLB ice (m),3.968,m
+lake,lake_ice_thickness,2007,ice_thickness,FRX,FRX ice (m),5.46,m
+lake,lake_ice_thickness,2007,ice_thickness,HOR,HOR ice (m),3.655,m
+lake,lake_ice_thickness,2007,ice_thickness,ELB,ELB ice (m),3.603333333,m
+lake,lake_ice_thickness,2007,ice_thickness,WLB,WLB ice (m),3.89,m
+lake,lake_ice_thickness,2008,ice_thickness,FRX,FRX ice (m),4.618,m
+lake,lake_ice_thickness,2008,ice_thickness,HOR,HOR ice (m),3.392,m
+lake,lake_ice_thickness,2008,ice_thickness,ELB,ELB ice (m),3.511,m
+lake,lake_ice_thickness,2008,ice_thickness,WLB,WLB ice (m),3.646,m
+lake,lake_ice_thickness,2009,ice_thickness,FRX,FRX ice (m),4.28875,m
+lake,lake_ice_thickness,2009,ice_thickness,HOR,HOR ice (m),3.404285714,m
+lake,lake_ice_thickness,2009,ice_thickness,ELB,ELB ice (m),3.435,m
+lake,lake_ice_thickness,2009,ice_thickness,WLB,WLB ice (m),3.688,m
+lake,lake_ice_thickness,2010,ice_thickness,FRX,FRX ice (m),3.87,m
+lake,lake_ice_thickness,2010,ice_thickness,HOR,HOR ice (m),3.366,m
+lake,lake_ice_thickness,2010,ice_thickness,ELB,ELB ice (m),3.552857143,m
+lake,lake_ice_thickness,2010,ice_thickness,WLB,WLB ice (m),3.544,m
+lake,lake_ice_thickness,2011,ice_thickness,FRX,FRX ice (m),4.25,m
+lake,lake_ice_thickness,2011,ice_thickness,HOR,HOR ice (m),3.8125,m
+lake,lake_ice_thickness,2011,ice_thickness,ELB,ELB ice (m),3.86,m
+lake,lake_ice_thickness,2011,ice_thickness,WLB,WLB ice (m),3.7775,m
+lake,lake_ice_thickness,2012,ice_thickness,FRX,FRX ice (m),4.3925,m
+lake,lake_ice_thickness,2012,ice_thickness,HOR,HOR ice (m),3.654,m
+lake,lake_ice_thickness,2012,ice_thickness,ELB,ELB ice (m),3.786,m
+lake,lake_ice_thickness,2012,ice_thickness,WLB,WLB ice (m),3.656,m
+lake,lake_ice_thickness,2013,ice_thickness,FRX,FRX ice (m),4.282,m
+lake,lake_ice_thickness,2013,ice_thickness,HOR,HOR ice (m),3.85,m
+lake,lake_ice_thickness,2013,ice_thickness,ELB,ELB ice (m),3.89,m
+lake,lake_ice_thickness,2013,ice_thickness,WLB,WLB ice (m),3.635,m
 lake,lake_ppr,1988,PPR,FRX,FRX PPR (mgC/m2/d),,mgC/m2/d
 lake,lake_ppr,1988,PPR,HOR,HOR PPR (mgC/m2/d),,mgC/m2/d
 lake,lake_ppr,1988,PPR,ELB,ELB PPR (mgC/m2/d),,mgC/m2/d
@@ -489,266 +489,266 @@ lake,lake_chla,2013,chla,FRX,FRX Chl-a,47.3840399,mg/m2
 lake,lake_chla,2013,chla,HOR,HOR Chl-a,39.57785889,mg/m2
 lake,lake_chla,2013,chla,ELB,ELB Chl-a,23.33403649,mg/m2
 lake,lake_chla,2013,chla,WLB,WLB Chl-a,28.02031188,mg/m2
-stream,frx_basin_dsch,1988,,Aiken,Aiken,,10^6 m3/s
-stream,frx_basin_dsch,1988,,Canada,Canada,,10^6 m3/s
-stream,frx_basin_dsch,1988,,Crescent,Crescent,,10^6 m3/s
-stream,frx_basin_dsch,1988,,Delta,Delta,,10^6 m3/s
-stream,frx_basin_dsch,1988,,Green,Green,,10^6 m3/s
-stream,frx_basin_dsch,1988,,Huey,Huey,,10^6 m3/s
-stream,frx_basin_dsch,1988,,Lost Seal,Lost Seal,,10^6 m3/s
-stream,frx_basin_dsch,1988,,Von Guerard,Von Guerard,,10^6 m3/s
-stream,frx_basin_dsch,1988,,Commonwealth,Commonwealth,,10^6 m3/s
-stream,frx_basin_dsch,1988,,Total_FRX_basin,FRX_Q_x10e6,,10^6 m3/s
-stream,frx_basin_dsch,1989,,Aiken,Aiken,,10^6 m3/s
-stream,frx_basin_dsch,1989,,Canada,Canada,,10^6 m3/s
-stream,frx_basin_dsch,1989,,Crescent,Crescent,,10^6 m3/s
-stream,frx_basin_dsch,1989,,Delta,Delta,,10^6 m3/s
-stream,frx_basin_dsch,1989,,Green,Green,,10^6 m3/s
-stream,frx_basin_dsch,1989,,Huey,Huey,,10^6 m3/s
-stream,frx_basin_dsch,1989,,Lost Seal,Lost Seal,,10^6 m3/s
-stream,frx_basin_dsch,1989,,Von Guerard,Von Guerard,,10^6 m3/s
-stream,frx_basin_dsch,1989,,Commonwealth,Commonwealth,,10^6 m3/s
-stream,frx_basin_dsch,1989,,Total_FRX_basin,FRX_Q_x10e6,,10^6 m3/s
-stream,frx_basin_dsch,1990,,Aiken,Aiken,,10^6 m3/s
-stream,frx_basin_dsch,1990,,Canada,Canada,,10^6 m3/s
-stream,frx_basin_dsch,1990,,Crescent,Crescent,,10^6 m3/s
-stream,frx_basin_dsch,1990,,Delta,Delta,,10^6 m3/s
-stream,frx_basin_dsch,1990,,Green,Green,,10^6 m3/s
-stream,frx_basin_dsch,1990,,Huey,Huey,,10^6 m3/s
-stream,frx_basin_dsch,1990,,Lost Seal,Lost Seal,,10^6 m3/s
-stream,frx_basin_dsch,1990,,Von Guerard,Von Guerard,,10^6 m3/s
-stream,frx_basin_dsch,1990,,Commonwealth,Commonwealth,,10^6 m3/s
-stream,frx_basin_dsch,1990,,Total_FRX_basin,FRX_Q_x10e6,,10^6 m3/s
-stream,frx_basin_dsch,1991,,Aiken,Aiken,302.4014996,10^6 m3/s
-stream,frx_basin_dsch,1991,,Canada,Canada,515.9985365,10^6 m3/s
-stream,frx_basin_dsch,1991,,Crescent,Crescent,250.1566234,10^6 m3/s
-stream,frx_basin_dsch,1991,,Delta,Delta,59.80309312,10^6 m3/s
-stream,frx_basin_dsch,1991,,Green,Green,337.3449084,10^6 m3/s
-stream,frx_basin_dsch,1991,,Huey,Huey,202.8926982,10^6 m3/s
-stream,frx_basin_dsch,1991,,Lost Seal,Lost Seal,545.2668771,10^6 m3/s
-stream,frx_basin_dsch,1991,,Von Guerard,Von Guerard,176.882125,10^6 m3/s
-stream,frx_basin_dsch,1991,,Commonwealth,Commonwealth,743.6875955,10^6 m3/s
-stream,frx_basin_dsch,1991,,Total_FRX_basin,FRX_Q_x10e6,3134.433957,10^6 m3/s
-stream,frx_basin_dsch,1992,,Aiken,Aiken,315.2527639,10^6 m3/s
-stream,frx_basin_dsch,1992,,Canada,Canada,305.1093387,10^6 m3/s
-stream,frx_basin_dsch,1992,,Crescent,Crescent,119.2382708,10^6 m3/s
-stream,frx_basin_dsch,1992,,Delta,Delta,179.5968211,10^6 m3/s
-stream,frx_basin_dsch,1992,,Green,Green,226.819313,10^6 m3/s
-stream,frx_basin_dsch,1992,,Huey,Huey,73.95887192,10^6 m3/s
-stream,frx_basin_dsch,1992,,Lost Seal,Lost Seal,485.5107438,10^6 m3/s
-stream,frx_basin_dsch,1992,,Von Guerard,Von Guerard,158.7845937,10^6 m3/s
-stream,frx_basin_dsch,1992,,Commonwealth,Commonwealth,426.0251969,10^6 m3/s
-stream,frx_basin_dsch,1992,,Total_FRX_basin,FRX_Q_x10e6,2290.295914,10^6 m3/s
-stream,frx_basin_dsch,1993,,Aiken,Aiken,,10^6 m3/s
-stream,frx_basin_dsch,1993,,Canada,Canada,,10^6 m3/s
-stream,frx_basin_dsch,1993,,Crescent,Crescent,,10^6 m3/s
-stream,frx_basin_dsch,1993,,Delta,Delta,,10^6 m3/s
-stream,frx_basin_dsch,1993,,Green,Green,,10^6 m3/s
-stream,frx_basin_dsch,1993,,Huey,Huey,,10^6 m3/s
-stream,frx_basin_dsch,1993,,Lost Seal,Lost Seal,,10^6 m3/s
-stream,frx_basin_dsch,1993,,Von Guerard,Von Guerard,,10^6 m3/s
-stream,frx_basin_dsch,1993,,Commonwealth,Commonwealth,,10^6 m3/s
-stream,frx_basin_dsch,1993,,Total_FRX_basin,FRX_Q_x10e6,,10^6 m3/s
-stream,frx_basin_dsch,1994,,Aiken,Aiken,96.13826573,10^6 m3/s
-stream,frx_basin_dsch,1994,,Canada,Canada,135.656352,10^6 m3/s
-stream,frx_basin_dsch,1994,,Crescent,Crescent,75.25290547,10^6 m3/s
-stream,frx_basin_dsch,1994,,Delta,Delta,97.0231657,10^6 m3/s
-stream,frx_basin_dsch,1994,,Green,Green,66.31408672,10^6 m3/s
-stream,frx_basin_dsch,1994,,Huey,Huey,53.81105591,10^6 m3/s
-stream,frx_basin_dsch,1994,,Lost Seal,Lost Seal,203.9468161,10^6 m3/s
-stream,frx_basin_dsch,1994,,Von Guerard,Von Guerard,82.19750931,10^6 m3/s
-stream,frx_basin_dsch,1994,,Commonwealth,Commonwealth,118.8229815,10^6 m3/s
-stream,frx_basin_dsch,1994,,Total_FRX_basin,FRX_Q_x10e6,929.1631384,10^6 m3/s
-stream,frx_basin_dsch,1995,,Aiken,Aiken,45.38775626,10^6 m3/s
-stream,frx_basin_dsch,1995,,Canada,Canada,47.1085974,10^6 m3/s
-stream,frx_basin_dsch,1995,,Crescent,Crescent,34.00764142,10^6 m3/s
-stream,frx_basin_dsch,1995,,Delta,Delta,37.04552309,10^6 m3/s
-stream,frx_basin_dsch,1995,,Green,Green,33.63868354,10^6 m3/s
-stream,frx_basin_dsch,1995,,Huey,Huey,0,10^6 m3/s
-stream,frx_basin_dsch,1995,,Lost Seal,Lost Seal,34.02977967,10^6 m3/s
-stream,frx_basin_dsch,1995,,Von Guerard,Von Guerard,21.7636382,10^6 m3/s
-stream,frx_basin_dsch,1995,,Commonwealth,Commonwealth,65.59443476,10^6 m3/s
-stream,frx_basin_dsch,1995,,Total_FRX_basin,FRX_Q_x10e6,318.5760543,10^6 m3/s
-stream,frx_basin_dsch,1996,,Aiken,Aiken,61.7181574,10^6 m3/s
-stream,frx_basin_dsch,1996,,Canada,Canada,116.2076657,10^6 m3/s
-stream,frx_basin_dsch,1996,,Crescent,Crescent,43.63371954,10^6 m3/s
-stream,frx_basin_dsch,1996,,Delta,Delta,0,10^6 m3/s
-stream,frx_basin_dsch,1996,,Green,Green,74.88068296,10^6 m3/s
-stream,frx_basin_dsch,1996,,Huey,Huey,0,10^6 m3/s
-stream,frx_basin_dsch,1996,,Lost Seal,Lost Seal,81.80742717,10^6 m3/s
-stream,frx_basin_dsch,1996,,Von Guerard,Von Guerard,18.61190714,10^6 m3/s
-stream,frx_basin_dsch,1996,,Commonwealth,Commonwealth,139.3933773,10^6 m3/s
-stream,frx_basin_dsch,1996,,Total_FRX_basin,FRX_Q_x10e6,536.2529371,10^6 m3/s
-stream,frx_basin_dsch,1997,,Aiken,Aiken,67.35366026,10^6 m3/s
-stream,frx_basin_dsch,1997,,Canada,Canada,98.71449705,10^6 m3/s
-stream,frx_basin_dsch,1997,,Crescent,Crescent,42.68171056,10^6 m3/s
-stream,frx_basin_dsch,1997,,Delta,Delta,0,10^6 m3/s
-stream,frx_basin_dsch,1997,,Green,Green,72.41013086,10^6 m3/s
-stream,frx_basin_dsch,1997,,Huey,Huey,7.25491035,10^6 m3/s
-stream,frx_basin_dsch,1997,,Lost Seal,Lost Seal,61.94856087,10^6 m3/s
-stream,frx_basin_dsch,1997,,Von Guerard,Von Guerard,17.80474186,10^6 m3/s
-stream,frx_basin_dsch,1997,,Commonwealth,Commonwealth,119.3029246,10^6 m3/s
-stream,frx_basin_dsch,1997,,Total_FRX_basin,FRX_Q_x10e6,487.4711365,10^6 m3/s
-stream,frx_basin_dsch,1998,,Aiken,Aiken,85.00138865,10^6 m3/s
-stream,frx_basin_dsch,1998,,Canada,Canada,83.35110645,10^6 m3/s
-stream,frx_basin_dsch,1998,,Crescent,Crescent,47.69297701,10^6 m3/s
-stream,frx_basin_dsch,1998,,Delta,Delta,45.9257144,10^6 m3/s
-stream,frx_basin_dsch,1998,,Green,Green,63.65177842,10^6 m3/s
-stream,frx_basin_dsch,1998,,Huey,Huey,5.980087845,10^6 m3/s
-stream,frx_basin_dsch,1998,,Lost Seal,Lost Seal,71.81091198,10^6 m3/s
-stream,frx_basin_dsch,1998,,Von Guerard,Von Guerard,11.13477482,10^6 m3/s
-stream,frx_basin_dsch,1998,,Commonwealth,Commonwealth,99.75602812,10^6 m3/s
-stream,frx_basin_dsch,1998,,Total_FRX_basin,FRX_Q_x10e6,514.3047677,10^6 m3/s
-stream,frx_basin_dsch,1999,,Aiken,Aiken,146.1964614,10^6 m3/s
-stream,frx_basin_dsch,1999,,Canada,Canada,137.5143673,10^6 m3/s
-stream,frx_basin_dsch,1999,,Crescent,Crescent,44.13135996,10^6 m3/s
-stream,frx_basin_dsch,1999,,Delta,Delta,66.11427085,10^6 m3/s
-stream,frx_basin_dsch,1999,,Green,Green,81.16775993,10^6 m3/s
-stream,frx_basin_dsch,1999,,Huey,Huey,3.530747524,10^6 m3/s
-stream,frx_basin_dsch,1999,,Lost Seal,Lost Seal,155.0509834,10^6 m3/s
-stream,frx_basin_dsch,1999,,Von Guerard,Von Guerard,27.91052536,10^6 m3/s
-stream,frx_basin_dsch,1999,,Commonwealth,Commonwealth,161.1634131,10^6 m3/s
-stream,frx_basin_dsch,1999,,Total_FRX_basin,FRX_Q_x10e6,822.7798888,10^6 m3/s
-stream,frx_basin_dsch,2000,,Aiken,Aiken,63.59977059,10^6 m3/s
-stream,frx_basin_dsch,2000,,Canada,Canada,91.8006399,10^6 m3/s
-stream,frx_basin_dsch,2000,,Crescent,Crescent,28.48477514,10^6 m3/s
-stream,frx_basin_dsch,2000,,Delta,Delta,32.06035116,10^6 m3/s
-stream,frx_basin_dsch,2000,,Green,Green,55.2835975,10^6 m3/s
-stream,frx_basin_dsch,2000,,Huey,Huey,4.711144995,10^6 m3/s
-stream,frx_basin_dsch,2000,,Lost Seal,Lost Seal,89.76269709,10^6 m3/s
-stream,frx_basin_dsch,2000,,Von Guerard,Von Guerard,0,10^6 m3/s
-stream,frx_basin_dsch,2000,,Commonwealth,Commonwealth,104.8561664,10^6 m3/s
-stream,frx_basin_dsch,2000,,Total_FRX_basin,FRX_Q_x10e6,470.5591428,10^6 m3/s
-stream,frx_basin_dsch,2001,,Aiken,Aiken,42.32663037,10^6 m3/s
-stream,frx_basin_dsch,2001,,Canada,Canada,97.78986725,10^6 m3/s
-stream,frx_basin_dsch,2001,,Crescent,Crescent,0,10^6 m3/s
-stream,frx_basin_dsch,2001,,Delta,Delta,27.11022144,10^6 m3/s
-stream,frx_basin_dsch,2001,,Green,Green,99.61834368,10^6 m3/s
-stream,frx_basin_dsch,2001,,Huey,Huey,0,10^6 m3/s
-stream,frx_basin_dsch,2001,,Lost Seal,Lost Seal,44.55360816,10^6 m3/s
-stream,frx_basin_dsch,2001,,Von Guerard,Von Guerard,0,10^6 m3/s
-stream,frx_basin_dsch,2001,,Commonwealth,Commonwealth,102.4351544,10^6 m3/s
-stream,frx_basin_dsch,2001,,Total_FRX_basin,FRX_Q_x10e6,413.8338253,10^6 m3/s
-stream,frx_basin_dsch,2002,,Aiken,Aiken,783.8901221,10^6 m3/s
-stream,frx_basin_dsch,2002,,Canada,Canada,766.655598,10^6 m3/s
-stream,frx_basin_dsch,2002,,Crescent,Crescent,198.3012636,10^6 m3/s
-stream,frx_basin_dsch,2002,,Delta,Delta,446.2743704,10^6 m3/s
-stream,frx_basin_dsch,2002,,Green,Green,347.6740125,10^6 m3/s
-stream,frx_basin_dsch,2002,,Huey,Huey,326.6647924,10^6 m3/s
-stream,frx_basin_dsch,2002,,Lost Seal,Lost Seal,1127.24188,10^6 m3/s
-stream,frx_basin_dsch,2002,,Von Guerard,Von Guerard,292.2573441,10^6 m3/s
-stream,frx_basin_dsch,2002,,Commonwealth,Commonwealth,1274.099997,10^6 m3/s
-stream,frx_basin_dsch,2002,,Total_FRX_basin,FRX_Q_x10e6,5563.05938,10^6 m3/s
-stream,frx_basin_dsch,2003,,Aiken,Aiken,99.72060834,10^6 m3/s
-stream,frx_basin_dsch,2003,,Canada,Canada,125.91374,10^6 m3/s
-stream,frx_basin_dsch,2003,,Crescent,Crescent,62.28521986,10^6 m3/s
-stream,frx_basin_dsch,2003,,Delta,Delta,68.684355,10^6 m3/s
-stream,frx_basin_dsch,2003,,Green,Green,83.42908978,10^6 m3/s
-stream,frx_basin_dsch,2003,,Huey,Huey,0,10^6 m3/s
-stream,frx_basin_dsch,2003,,Lost Seal,Lost Seal,152.0266551,10^6 m3/s
-stream,frx_basin_dsch,2003,,Von Guerard,Von Guerard,28.73664002,10^6 m3/s
-stream,frx_basin_dsch,2003,,Commonwealth,Commonwealth,221.5348395,10^6 m3/s
-stream,frx_basin_dsch,2003,,Total_FRX_basin,FRX_Q_x10e6,842.3311476,10^6 m3/s
-stream,frx_basin_dsch,2004,,Aiken,Aiken,76.00501767,10^6 m3/s
-stream,frx_basin_dsch,2004,,Canada,Canada,97.5150036,10^6 m3/s
-stream,frx_basin_dsch,2004,,Crescent,Crescent,79.51339534,10^6 m3/s
-stream,frx_basin_dsch,2004,,Delta,Delta,39.20663844,10^6 m3/s
-stream,frx_basin_dsch,2004,,Green,Green,111.3468864,10^6 m3/s
-stream,frx_basin_dsch,2004,,Huey,Huey,0,10^6 m3/s
-stream,frx_basin_dsch,2004,,Lost Seal,Lost Seal,96.24365289,10^6 m3/s
-stream,frx_basin_dsch,2004,,Von Guerard,Von Guerard,28.99767714,10^6 m3/s
-stream,frx_basin_dsch,2004,,Commonwealth,Commonwealth,206.8969357,10^6 m3/s
-stream,frx_basin_dsch,2004,,Total_FRX_basin,FRX_Q_x10e6,735.7252072,10^6 m3/s
-stream,frx_basin_dsch,2005,,Aiken,Aiken,166.3509087,10^6 m3/s
-stream,frx_basin_dsch,2005,,Canada,Canada,232.8875091,10^6 m3/s
-stream,frx_basin_dsch,2005,,Crescent,Crescent,100.8941136,10^6 m3/s
-stream,frx_basin_dsch,2005,,Delta,Delta,124.3856569,10^6 m3/s
-stream,frx_basin_dsch,2005,,Green,Green,207.0583604,10^6 m3/s
-stream,frx_basin_dsch,2005,,Huey,Huey,2.006232075,10^6 m3/s
-stream,frx_basin_dsch,2005,,Lost Seal,Lost Seal,292.4293797,10^6 m3/s
-stream,frx_basin_dsch,2005,,Von Guerard,Von Guerard,124.52519,10^6 m3/s
-stream,frx_basin_dsch,2005,,Commonwealth,Commonwealth,483.1203262,10^6 m3/s
-stream,frx_basin_dsch,2005,,Total_FRX_basin,FRX_Q_x10e6,1733.657677,10^6 m3/s
-stream,frx_basin_dsch,2006,,Aiken,Aiken,192.8760736,10^6 m3/s
-stream,frx_basin_dsch,2006,,Canada,Canada,261.2539044,10^6 m3/s
-stream,frx_basin_dsch,2006,,Crescent,Crescent,79.40598826,10^6 m3/s
-stream,frx_basin_dsch,2006,,Delta,Delta,217.169024,10^6 m3/s
-stream,frx_basin_dsch,2006,,Green,Green,234.9902182,10^6 m3/s
-stream,frx_basin_dsch,2006,,Huey,Huey,14.87757348,10^6 m3/s
-stream,frx_basin_dsch,2006,,Lost Seal,Lost Seal,409.878137,10^6 m3/s
-stream,frx_basin_dsch,2006,,Von Guerard,Von Guerard,59.78505325,10^6 m3/s
-stream,frx_basin_dsch,2006,,Commonwealth,Commonwealth,400.7635338,10^6 m3/s
-stream,frx_basin_dsch,2006,,Total_FRX_basin,FRX_Q_x10e6,1870.999506,10^6 m3/s
-stream,frx_basin_dsch,2007,,Aiken,Aiken,128.7497995,10^6 m3/s
-stream,frx_basin_dsch,2007,,Canada,Canada,123.0877917,10^6 m3/s
-stream,frx_basin_dsch,2007,,Crescent,Crescent,104.3213153,10^6 m3/s
-stream,frx_basin_dsch,2007,,Delta,Delta,192.993727,10^6 m3/s
-stream,frx_basin_dsch,2007,,Green,Green,190.8361109,10^6 m3/s
-stream,frx_basin_dsch,2007,,Huey,Huey,33.24956661,10^6 m3/s
-stream,frx_basin_dsch,2007,,Lost Seal,Lost Seal,192.1086667,10^6 m3/s
-stream,frx_basin_dsch,2007,,Von Guerard,Von Guerard,61.32125418,10^6 m3/s
-stream,frx_basin_dsch,2007,,Commonwealth,Commonwealth,195.0081963,10^6 m3/s
-stream,frx_basin_dsch,2007,,Total_FRX_basin,FRX_Q_x10e6,1221.676428,10^6 m3/s
-stream,frx_basin_dsch,2008,,Aiken,Aiken,113.2794121,10^6 m3/s
-stream,frx_basin_dsch,2008,,Canada,Canada,239.2674282,10^6 m3/s
-stream,frx_basin_dsch,2008,,Crescent,Crescent,31.77225893,10^6 m3/s
-stream,frx_basin_dsch,2008,,Delta,Delta,72.01051229,10^6 m3/s
-stream,frx_basin_dsch,2008,,Green,Green,182.7764526,10^6 m3/s
-stream,frx_basin_dsch,2008,,Huey,Huey,8.12344554,10^6 m3/s
-stream,frx_basin_dsch,2008,,Lost Seal,Lost Seal,157.7152643,10^6 m3/s
-stream,frx_basin_dsch,2008,,Von Guerard,Von Guerard,35.39358467,10^6 m3/s
-stream,frx_basin_dsch,2008,,Commonwealth,Commonwealth,139.6140805,10^6 m3/s
-stream,frx_basin_dsch,2008,,Total_FRX_basin,FRX_Q_x10e6,979.9524391,10^6 m3/s
-stream,frx_basin_dsch,2009,,Aiken,Aiken,507.376413,10^6 m3/s
-stream,frx_basin_dsch,2009,,Canada,Canada,565.1870999,10^6 m3/s
-stream,frx_basin_dsch,2009,,Crescent,Crescent,173.2384534,10^6 m3/s
-stream,frx_basin_dsch,2009,,Delta,Delta,400.6353218,10^6 m3/s
-stream,frx_basin_dsch,2009,,Green,Green,446.4402919,10^6 m3/s
-stream,frx_basin_dsch,2009,,Huey,Huey,298.0616582,10^6 m3/s
-stream,frx_basin_dsch,2009,,Lost Seal,Lost Seal,807.6964159,10^6 m3/s
-stream,frx_basin_dsch,2009,,Von Guerard,Von Guerard,212.2029475,10^6 m3/s
-stream,frx_basin_dsch,2009,,Commonwealth,Commonwealth,621.9291577,10^6 m3/s
-stream,frx_basin_dsch,2009,,Total_FRX_basin,FRX_Q_x10e6,4032.767759,10^6 m3/s
-stream,frx_basin_dsch,2010,,Aiken,Aiken,145.9761679,10^6 m3/s
-stream,frx_basin_dsch,2010,,Canada,Canada,164.4778089,10^6 m3/s
-stream,frx_basin_dsch,2010,,Crescent,Crescent,73.77478006,10^6 m3/s
-stream,frx_basin_dsch,2010,,Delta,Delta,64.58921287,10^6 m3/s
-stream,frx_basin_dsch,2010,,Green,Green,130.4620533,10^6 m3/s
-stream,frx_basin_dsch,2010,,Huey,Huey,4.084999695,10^6 m3/s
-stream,frx_basin_dsch,2010,,Lost Seal,Lost Seal,138.7374548,10^6 m3/s
-stream,frx_basin_dsch,2010,,Von Guerard,Von Guerard,114.0523039,10^6 m3/s
-stream,frx_basin_dsch,2010,,Commonwealth,Commonwealth,204.0449145,10^6 m3/s
-stream,frx_basin_dsch,2010,,Total_FRX_basin,FRX_Q_x10e6,1040.199696,10^6 m3/s
-stream,frx_basin_dsch,2011,,Aiken,Aiken,741.4311514,10^6 m3/s
-stream,frx_basin_dsch,2011,,Canada,Canada,394.1169651,10^6 m3/s
-stream,frx_basin_dsch,2011,,Crescent,Crescent,145.7819452,10^6 m3/s
-stream,frx_basin_dsch,2011,,Delta,Delta,283.8133415,10^6 m3/s
-stream,frx_basin_dsch,2011,,Green,Green,311.259467,10^6 m3/s
-stream,frx_basin_dsch,2011,,Huey,Huey,129.1353785,10^6 m3/s
-stream,frx_basin_dsch,2011,,Lost Seal,Lost Seal,944.4567781,10^6 m3/s
-stream,frx_basin_dsch,2011,,Von Guerard,Von Guerard,240.389722,10^6 m3/s
-stream,frx_basin_dsch,2011,,Commonwealth,Commonwealth,656.9906589,10^6 m3/s
-stream,frx_basin_dsch,2011,,Total_FRX_basin,FRX_Q_x10e6,3847.375408,10^6 m3/s
-stream,frx_basin_dsch,2012,,Aiken,Aiken,198.0306328,10^6 m3/s
-stream,frx_basin_dsch,2012,,Canada,Canada,304.9917145,10^6 m3/s
-stream,frx_basin_dsch,2012,,Crescent,Crescent,138.2508681,10^6 m3/s
-stream,frx_basin_dsch,2012,,Delta,Delta,101.0101242,10^6 m3/s
-stream,frx_basin_dsch,2012,,Green,Green,195.2077409,10^6 m3/s
-stream,frx_basin_dsch,2012,,Huey,Huey,95.55585227,10^6 m3/s
-stream,frx_basin_dsch,2012,,Lost Seal,Lost Seal,337.8030324,10^6 m3/s
-stream,frx_basin_dsch,2012,,Von Guerard,Von Guerard,58.28504309,10^6 m3/s
-stream,frx_basin_dsch,2012,,Commonwealth,Commonwealth,270.0634645,10^6 m3/s
-stream,frx_basin_dsch,2012,,Total_FRX_basin,FRX_Q_x10e6,1699.198473,10^6 m3/s
-stream,frx_basin_dsch,2013,,Aiken,Aiken,182.2358781,10^6 m3/s
-stream,frx_basin_dsch,2013,,Canada,Canada,207.5473665,10^6 m3/s
-stream,frx_basin_dsch,2013,,Crescent,Crescent,89.72353886,10^6 m3/s
-stream,frx_basin_dsch,2013,,Delta,Delta,58.32151362,10^6 m3/s
-stream,frx_basin_dsch,2013,,Green,Green,274.1050232,10^6 m3/s
-stream,frx_basin_dsch,2013,,Huey,Huey,46.77521167,10^6 m3/s
-stream,frx_basin_dsch,2013,,Lost Seal,Lost Seal,289.0744866,10^6 m3/s
-stream,frx_basin_dsch,2013,,Von Guerard,Von Guerard,32.73149537,10^6 m3/s
-stream,frx_basin_dsch,2013,,Commonwealth,Commonwealth,206.9935926,10^6 m3/s
-stream,frx_basin_dsch,2013,,Total_FRX_basin,FRX_Q_x10e6,1387.508107,10^6 m3/s
+stream,frx_basin_dsch,1988,disch,Aiken,Aiken,,10^6 m3/s
+stream,frx_basin_dsch,1988,disch,Canada,Canada,,10^6 m3/s
+stream,frx_basin_dsch,1988,disch,Crescent,Crescent,,10^6 m3/s
+stream,frx_basin_dsch,1988,disch,Delta,Delta,,10^6 m3/s
+stream,frx_basin_dsch,1988,disch,Green,Green,,10^6 m3/s
+stream,frx_basin_dsch,1988,disch,Huey,Huey,,10^6 m3/s
+stream,frx_basin_dsch,1988,disch,Lost Seal,Lost Seal,,10^6 m3/s
+stream,frx_basin_dsch,1988,disch,Von Guerard,Von Guerard,,10^6 m3/s
+stream,frx_basin_dsch,1988,disch,Commonwealth,Commonwealth,,10^6 m3/s
+stream,frx_basin_dsch,1988,disch,Total_FRX_basin,FRX_Q_x10e6,,10^6 m3/s
+stream,frx_basin_dsch,1989,disch,Aiken,Aiken,,10^6 m3/s
+stream,frx_basin_dsch,1989,disch,Canada,Canada,,10^6 m3/s
+stream,frx_basin_dsch,1989,disch,Crescent,Crescent,,10^6 m3/s
+stream,frx_basin_dsch,1989,disch,Delta,Delta,,10^6 m3/s
+stream,frx_basin_dsch,1989,disch,Green,Green,,10^6 m3/s
+stream,frx_basin_dsch,1989,disch,Huey,Huey,,10^6 m3/s
+stream,frx_basin_dsch,1989,disch,Lost Seal,Lost Seal,,10^6 m3/s
+stream,frx_basin_dsch,1989,disch,Von Guerard,Von Guerard,,10^6 m3/s
+stream,frx_basin_dsch,1989,disch,Commonwealth,Commonwealth,,10^6 m3/s
+stream,frx_basin_dsch,1989,disch,Total_FRX_basin,FRX_Q_x10e6,,10^6 m3/s
+stream,frx_basin_dsch,1990,disch,Aiken,Aiken,,10^6 m3/s
+stream,frx_basin_dsch,1990,disch,Canada,Canada,,10^6 m3/s
+stream,frx_basin_dsch,1990,disch,Crescent,Crescent,,10^6 m3/s
+stream,frx_basin_dsch,1990,disch,Delta,Delta,,10^6 m3/s
+stream,frx_basin_dsch,1990,disch,Green,Green,,10^6 m3/s
+stream,frx_basin_dsch,1990,disch,Huey,Huey,,10^6 m3/s
+stream,frx_basin_dsch,1990,disch,Lost Seal,Lost Seal,,10^6 m3/s
+stream,frx_basin_dsch,1990,disch,Von Guerard,Von Guerard,,10^6 m3/s
+stream,frx_basin_dsch,1990,disch,Commonwealth,Commonwealth,,10^6 m3/s
+stream,frx_basin_dsch,1990,disch,Total_FRX_basin,FRX_Q_x10e6,,10^6 m3/s
+stream,frx_basin_dsch,1991,disch,Aiken,Aiken,302.4014996,10^6 m3/s
+stream,frx_basin_dsch,1991,disch,Canada,Canada,515.9985365,10^6 m3/s
+stream,frx_basin_dsch,1991,disch,Crescent,Crescent,250.1566234,10^6 m3/s
+stream,frx_basin_dsch,1991,disch,Delta,Delta,59.80309312,10^6 m3/s
+stream,frx_basin_dsch,1991,disch,Green,Green,337.3449084,10^6 m3/s
+stream,frx_basin_dsch,1991,disch,Huey,Huey,202.8926982,10^6 m3/s
+stream,frx_basin_dsch,1991,disch,Lost Seal,Lost Seal,545.2668771,10^6 m3/s
+stream,frx_basin_dsch,1991,disch,Von Guerard,Von Guerard,176.882125,10^6 m3/s
+stream,frx_basin_dsch,1991,disch,Commonwealth,Commonwealth,743.6875955,10^6 m3/s
+stream,frx_basin_dsch,1991,disch,Total_FRX_basin,FRX_Q_x10e6,3134.433957,10^6 m3/s
+stream,frx_basin_dsch,1992,disch,Aiken,Aiken,315.2527639,10^6 m3/s
+stream,frx_basin_dsch,1992,disch,Canada,Canada,305.1093387,10^6 m3/s
+stream,frx_basin_dsch,1992,disch,Crescent,Crescent,119.2382708,10^6 m3/s
+stream,frx_basin_dsch,1992,disch,Delta,Delta,179.5968211,10^6 m3/s
+stream,frx_basin_dsch,1992,disch,Green,Green,226.819313,10^6 m3/s
+stream,frx_basin_dsch,1992,disch,Huey,Huey,73.95887192,10^6 m3/s
+stream,frx_basin_dsch,1992,disch,Lost Seal,Lost Seal,485.5107438,10^6 m3/s
+stream,frx_basin_dsch,1992,disch,Von Guerard,Von Guerard,158.7845937,10^6 m3/s
+stream,frx_basin_dsch,1992,disch,Commonwealth,Commonwealth,426.0251969,10^6 m3/s
+stream,frx_basin_dsch,1992,disch,Total_FRX_basin,FRX_Q_x10e6,2290.295914,10^6 m3/s
+stream,frx_basin_dsch,1993,disch,Aiken,Aiken,,10^6 m3/s
+stream,frx_basin_dsch,1993,disch,Canada,Canada,,10^6 m3/s
+stream,frx_basin_dsch,1993,disch,Crescent,Crescent,,10^6 m3/s
+stream,frx_basin_dsch,1993,disch,Delta,Delta,,10^6 m3/s
+stream,frx_basin_dsch,1993,disch,Green,Green,,10^6 m3/s
+stream,frx_basin_dsch,1993,disch,Huey,Huey,,10^6 m3/s
+stream,frx_basin_dsch,1993,disch,Lost Seal,Lost Seal,,10^6 m3/s
+stream,frx_basin_dsch,1993,disch,Von Guerard,Von Guerard,,10^6 m3/s
+stream,frx_basin_dsch,1993,disch,Commonwealth,Commonwealth,,10^6 m3/s
+stream,frx_basin_dsch,1993,disch,Total_FRX_basin,FRX_Q_x10e6,,10^6 m3/s
+stream,frx_basin_dsch,1994,disch,Aiken,Aiken,96.13826573,10^6 m3/s
+stream,frx_basin_dsch,1994,disch,Canada,Canada,135.656352,10^6 m3/s
+stream,frx_basin_dsch,1994,disch,Crescent,Crescent,75.25290547,10^6 m3/s
+stream,frx_basin_dsch,1994,disch,Delta,Delta,97.0231657,10^6 m3/s
+stream,frx_basin_dsch,1994,disch,Green,Green,66.31408672,10^6 m3/s
+stream,frx_basin_dsch,1994,disch,Huey,Huey,53.81105591,10^6 m3/s
+stream,frx_basin_dsch,1994,disch,Lost Seal,Lost Seal,203.9468161,10^6 m3/s
+stream,frx_basin_dsch,1994,disch,Von Guerard,Von Guerard,82.19750931,10^6 m3/s
+stream,frx_basin_dsch,1994,disch,Commonwealth,Commonwealth,118.8229815,10^6 m3/s
+stream,frx_basin_dsch,1994,disch,Total_FRX_basin,FRX_Q_x10e6,929.1631384,10^6 m3/s
+stream,frx_basin_dsch,1995,disch,Aiken,Aiken,45.38775626,10^6 m3/s
+stream,frx_basin_dsch,1995,disch,Canada,Canada,47.1085974,10^6 m3/s
+stream,frx_basin_dsch,1995,disch,Crescent,Crescent,34.00764142,10^6 m3/s
+stream,frx_basin_dsch,1995,disch,Delta,Delta,37.04552309,10^6 m3/s
+stream,frx_basin_dsch,1995,disch,Green,Green,33.63868354,10^6 m3/s
+stream,frx_basin_dsch,1995,disch,Huey,Huey,0,10^6 m3/s
+stream,frx_basin_dsch,1995,disch,Lost Seal,Lost Seal,34.02977967,10^6 m3/s
+stream,frx_basin_dsch,1995,disch,Von Guerard,Von Guerard,21.7636382,10^6 m3/s
+stream,frx_basin_dsch,1995,disch,Commonwealth,Commonwealth,65.59443476,10^6 m3/s
+stream,frx_basin_dsch,1995,disch,Total_FRX_basin,FRX_Q_x10e6,318.5760543,10^6 m3/s
+stream,frx_basin_dsch,1996,disch,Aiken,Aiken,61.7181574,10^6 m3/s
+stream,frx_basin_dsch,1996,disch,Canada,Canada,116.2076657,10^6 m3/s
+stream,frx_basin_dsch,1996,disch,Crescent,Crescent,43.63371954,10^6 m3/s
+stream,frx_basin_dsch,1996,disch,Delta,Delta,0,10^6 m3/s
+stream,frx_basin_dsch,1996,disch,Green,Green,74.88068296,10^6 m3/s
+stream,frx_basin_dsch,1996,disch,Huey,Huey,0,10^6 m3/s
+stream,frx_basin_dsch,1996,disch,Lost Seal,Lost Seal,81.80742717,10^6 m3/s
+stream,frx_basin_dsch,1996,disch,Von Guerard,Von Guerard,18.61190714,10^6 m3/s
+stream,frx_basin_dsch,1996,disch,Commonwealth,Commonwealth,139.3933773,10^6 m3/s
+stream,frx_basin_dsch,1996,disch,Total_FRX_basin,FRX_Q_x10e6,536.2529371,10^6 m3/s
+stream,frx_basin_dsch,1997,disch,Aiken,Aiken,67.35366026,10^6 m3/s
+stream,frx_basin_dsch,1997,disch,Canada,Canada,98.71449705,10^6 m3/s
+stream,frx_basin_dsch,1997,disch,Crescent,Crescent,42.68171056,10^6 m3/s
+stream,frx_basin_dsch,1997,disch,Delta,Delta,0,10^6 m3/s
+stream,frx_basin_dsch,1997,disch,Green,Green,72.41013086,10^6 m3/s
+stream,frx_basin_dsch,1997,disch,Huey,Huey,7.25491035,10^6 m3/s
+stream,frx_basin_dsch,1997,disch,Lost Seal,Lost Seal,61.94856087,10^6 m3/s
+stream,frx_basin_dsch,1997,disch,Von Guerard,Von Guerard,17.80474186,10^6 m3/s
+stream,frx_basin_dsch,1997,disch,Commonwealth,Commonwealth,119.3029246,10^6 m3/s
+stream,frx_basin_dsch,1997,disch,Total_FRX_basin,FRX_Q_x10e6,487.4711365,10^6 m3/s
+stream,frx_basin_dsch,1998,disch,Aiken,Aiken,85.00138865,10^6 m3/s
+stream,frx_basin_dsch,1998,disch,Canada,Canada,83.35110645,10^6 m3/s
+stream,frx_basin_dsch,1998,disch,Crescent,Crescent,47.69297701,10^6 m3/s
+stream,frx_basin_dsch,1998,disch,Delta,Delta,45.9257144,10^6 m3/s
+stream,frx_basin_dsch,1998,disch,Green,Green,63.65177842,10^6 m3/s
+stream,frx_basin_dsch,1998,disch,Huey,Huey,5.980087845,10^6 m3/s
+stream,frx_basin_dsch,1998,disch,Lost Seal,Lost Seal,71.81091198,10^6 m3/s
+stream,frx_basin_dsch,1998,disch,Von Guerard,Von Guerard,11.13477482,10^6 m3/s
+stream,frx_basin_dsch,1998,disch,Commonwealth,Commonwealth,99.75602812,10^6 m3/s
+stream,frx_basin_dsch,1998,disch,Total_FRX_basin,FRX_Q_x10e6,514.3047677,10^6 m3/s
+stream,frx_basin_dsch,1999,disch,Aiken,Aiken,146.1964614,10^6 m3/s
+stream,frx_basin_dsch,1999,disch,Canada,Canada,137.5143673,10^6 m3/s
+stream,frx_basin_dsch,1999,disch,Crescent,Crescent,44.13135996,10^6 m3/s
+stream,frx_basin_dsch,1999,disch,Delta,Delta,66.11427085,10^6 m3/s
+stream,frx_basin_dsch,1999,disch,Green,Green,81.16775993,10^6 m3/s
+stream,frx_basin_dsch,1999,disch,Huey,Huey,3.530747524,10^6 m3/s
+stream,frx_basin_dsch,1999,disch,Lost Seal,Lost Seal,155.0509834,10^6 m3/s
+stream,frx_basin_dsch,1999,disch,Von Guerard,Von Guerard,27.91052536,10^6 m3/s
+stream,frx_basin_dsch,1999,disch,Commonwealth,Commonwealth,161.1634131,10^6 m3/s
+stream,frx_basin_dsch,1999,disch,Total_FRX_basin,FRX_Q_x10e6,822.7798888,10^6 m3/s
+stream,frx_basin_dsch,2000,disch,Aiken,Aiken,63.59977059,10^6 m3/s
+stream,frx_basin_dsch,2000,disch,Canada,Canada,91.8006399,10^6 m3/s
+stream,frx_basin_dsch,2000,disch,Crescent,Crescent,28.48477514,10^6 m3/s
+stream,frx_basin_dsch,2000,disch,Delta,Delta,32.06035116,10^6 m3/s
+stream,frx_basin_dsch,2000,disch,Green,Green,55.2835975,10^6 m3/s
+stream,frx_basin_dsch,2000,disch,Huey,Huey,4.711144995,10^6 m3/s
+stream,frx_basin_dsch,2000,disch,Lost Seal,Lost Seal,89.76269709,10^6 m3/s
+stream,frx_basin_dsch,2000,disch,Von Guerard,Von Guerard,0,10^6 m3/s
+stream,frx_basin_dsch,2000,disch,Commonwealth,Commonwealth,104.8561664,10^6 m3/s
+stream,frx_basin_dsch,2000,disch,Total_FRX_basin,FRX_Q_x10e6,470.5591428,10^6 m3/s
+stream,frx_basin_dsch,2001,disch,Aiken,Aiken,42.32663037,10^6 m3/s
+stream,frx_basin_dsch,2001,disch,Canada,Canada,97.78986725,10^6 m3/s
+stream,frx_basin_dsch,2001,disch,Crescent,Crescent,0,10^6 m3/s
+stream,frx_basin_dsch,2001,disch,Delta,Delta,27.11022144,10^6 m3/s
+stream,frx_basin_dsch,2001,disch,Green,Green,99.61834368,10^6 m3/s
+stream,frx_basin_dsch,2001,disch,Huey,Huey,0,10^6 m3/s
+stream,frx_basin_dsch,2001,disch,Lost Seal,Lost Seal,44.55360816,10^6 m3/s
+stream,frx_basin_dsch,2001,disch,Von Guerard,Von Guerard,0,10^6 m3/s
+stream,frx_basin_dsch,2001,disch,Commonwealth,Commonwealth,102.4351544,10^6 m3/s
+stream,frx_basin_dsch,2001,disch,Total_FRX_basin,FRX_Q_x10e6,413.8338253,10^6 m3/s
+stream,frx_basin_dsch,2002,disch,Aiken,Aiken,783.8901221,10^6 m3/s
+stream,frx_basin_dsch,2002,disch,Canada,Canada,766.655598,10^6 m3/s
+stream,frx_basin_dsch,2002,disch,Crescent,Crescent,198.3012636,10^6 m3/s
+stream,frx_basin_dsch,2002,disch,Delta,Delta,446.2743704,10^6 m3/s
+stream,frx_basin_dsch,2002,disch,Green,Green,347.6740125,10^6 m3/s
+stream,frx_basin_dsch,2002,disch,Huey,Huey,326.6647924,10^6 m3/s
+stream,frx_basin_dsch,2002,disch,Lost Seal,Lost Seal,1127.24188,10^6 m3/s
+stream,frx_basin_dsch,2002,disch,Von Guerard,Von Guerard,292.2573441,10^6 m3/s
+stream,frx_basin_dsch,2002,disch,Commonwealth,Commonwealth,1274.099997,10^6 m3/s
+stream,frx_basin_dsch,2002,disch,Total_FRX_basin,FRX_Q_x10e6,5563.05938,10^6 m3/s
+stream,frx_basin_dsch,2003,disch,Aiken,Aiken,99.72060834,10^6 m3/s
+stream,frx_basin_dsch,2003,disch,Canada,Canada,125.91374,10^6 m3/s
+stream,frx_basin_dsch,2003,disch,Crescent,Crescent,62.28521986,10^6 m3/s
+stream,frx_basin_dsch,2003,disch,Delta,Delta,68.684355,10^6 m3/s
+stream,frx_basin_dsch,2003,disch,Green,Green,83.42908978,10^6 m3/s
+stream,frx_basin_dsch,2003,disch,Huey,Huey,0,10^6 m3/s
+stream,frx_basin_dsch,2003,disch,Lost Seal,Lost Seal,152.0266551,10^6 m3/s
+stream,frx_basin_dsch,2003,disch,Von Guerard,Von Guerard,28.73664002,10^6 m3/s
+stream,frx_basin_dsch,2003,disch,Commonwealth,Commonwealth,221.5348395,10^6 m3/s
+stream,frx_basin_dsch,2003,disch,Total_FRX_basin,FRX_Q_x10e6,842.3311476,10^6 m3/s
+stream,frx_basin_dsch,2004,disch,Aiken,Aiken,76.00501767,10^6 m3/s
+stream,frx_basin_dsch,2004,disch,Canada,Canada,97.5150036,10^6 m3/s
+stream,frx_basin_dsch,2004,disch,Crescent,Crescent,79.51339534,10^6 m3/s
+stream,frx_basin_dsch,2004,disch,Delta,Delta,39.20663844,10^6 m3/s
+stream,frx_basin_dsch,2004,disch,Green,Green,111.3468864,10^6 m3/s
+stream,frx_basin_dsch,2004,disch,Huey,Huey,0,10^6 m3/s
+stream,frx_basin_dsch,2004,disch,Lost Seal,Lost Seal,96.24365289,10^6 m3/s
+stream,frx_basin_dsch,2004,disch,Von Guerard,Von Guerard,28.99767714,10^6 m3/s
+stream,frx_basin_dsch,2004,disch,Commonwealth,Commonwealth,206.8969357,10^6 m3/s
+stream,frx_basin_dsch,2004,disch,Total_FRX_basin,FRX_Q_x10e6,735.7252072,10^6 m3/s
+stream,frx_basin_dsch,2005,disch,Aiken,Aiken,166.3509087,10^6 m3/s
+stream,frx_basin_dsch,2005,disch,Canada,Canada,232.8875091,10^6 m3/s
+stream,frx_basin_dsch,2005,disch,Crescent,Crescent,100.8941136,10^6 m3/s
+stream,frx_basin_dsch,2005,disch,Delta,Delta,124.3856569,10^6 m3/s
+stream,frx_basin_dsch,2005,disch,Green,Green,207.0583604,10^6 m3/s
+stream,frx_basin_dsch,2005,disch,Huey,Huey,2.006232075,10^6 m3/s
+stream,frx_basin_dsch,2005,disch,Lost Seal,Lost Seal,292.4293797,10^6 m3/s
+stream,frx_basin_dsch,2005,disch,Von Guerard,Von Guerard,124.52519,10^6 m3/s
+stream,frx_basin_dsch,2005,disch,Commonwealth,Commonwealth,483.1203262,10^6 m3/s
+stream,frx_basin_dsch,2005,disch,Total_FRX_basin,FRX_Q_x10e6,1733.657677,10^6 m3/s
+stream,frx_basin_dsch,2006,disch,Aiken,Aiken,192.8760736,10^6 m3/s
+stream,frx_basin_dsch,2006,disch,Canada,Canada,261.2539044,10^6 m3/s
+stream,frx_basin_dsch,2006,disch,Crescent,Crescent,79.40598826,10^6 m3/s
+stream,frx_basin_dsch,2006,disch,Delta,Delta,217.169024,10^6 m3/s
+stream,frx_basin_dsch,2006,disch,Green,Green,234.9902182,10^6 m3/s
+stream,frx_basin_dsch,2006,disch,Huey,Huey,14.87757348,10^6 m3/s
+stream,frx_basin_dsch,2006,disch,Lost Seal,Lost Seal,409.878137,10^6 m3/s
+stream,frx_basin_dsch,2006,disch,Von Guerard,Von Guerard,59.78505325,10^6 m3/s
+stream,frx_basin_dsch,2006,disch,Commonwealth,Commonwealth,400.7635338,10^6 m3/s
+stream,frx_basin_dsch,2006,disch,Total_FRX_basin,FRX_Q_x10e6,1870.999506,10^6 m3/s
+stream,frx_basin_dsch,2007,disch,Aiken,Aiken,128.7497995,10^6 m3/s
+stream,frx_basin_dsch,2007,disch,Canada,Canada,123.0877917,10^6 m3/s
+stream,frx_basin_dsch,2007,disch,Crescent,Crescent,104.3213153,10^6 m3/s
+stream,frx_basin_dsch,2007,disch,Delta,Delta,192.993727,10^6 m3/s
+stream,frx_basin_dsch,2007,disch,Green,Green,190.8361109,10^6 m3/s
+stream,frx_basin_dsch,2007,disch,Huey,Huey,33.24956661,10^6 m3/s
+stream,frx_basin_dsch,2007,disch,Lost Seal,Lost Seal,192.1086667,10^6 m3/s
+stream,frx_basin_dsch,2007,disch,Von Guerard,Von Guerard,61.32125418,10^6 m3/s
+stream,frx_basin_dsch,2007,disch,Commonwealth,Commonwealth,195.0081963,10^6 m3/s
+stream,frx_basin_dsch,2007,disch,Total_FRX_basin,FRX_Q_x10e6,1221.676428,10^6 m3/s
+stream,frx_basin_dsch,2008,disch,Aiken,Aiken,113.2794121,10^6 m3/s
+stream,frx_basin_dsch,2008,disch,Canada,Canada,239.2674282,10^6 m3/s
+stream,frx_basin_dsch,2008,disch,Crescent,Crescent,31.77225893,10^6 m3/s
+stream,frx_basin_dsch,2008,disch,Delta,Delta,72.01051229,10^6 m3/s
+stream,frx_basin_dsch,2008,disch,Green,Green,182.7764526,10^6 m3/s
+stream,frx_basin_dsch,2008,disch,Huey,Huey,8.12344554,10^6 m3/s
+stream,frx_basin_dsch,2008,disch,Lost Seal,Lost Seal,157.7152643,10^6 m3/s
+stream,frx_basin_dsch,2008,disch,Von Guerard,Von Guerard,35.39358467,10^6 m3/s
+stream,frx_basin_dsch,2008,disch,Commonwealth,Commonwealth,139.6140805,10^6 m3/s
+stream,frx_basin_dsch,2008,disch,Total_FRX_basin,FRX_Q_x10e6,979.9524391,10^6 m3/s
+stream,frx_basin_dsch,2009,disch,Aiken,Aiken,507.376413,10^6 m3/s
+stream,frx_basin_dsch,2009,disch,Canada,Canada,565.1870999,10^6 m3/s
+stream,frx_basin_dsch,2009,disch,Crescent,Crescent,173.2384534,10^6 m3/s
+stream,frx_basin_dsch,2009,disch,Delta,Delta,400.6353218,10^6 m3/s
+stream,frx_basin_dsch,2009,disch,Green,Green,446.4402919,10^6 m3/s
+stream,frx_basin_dsch,2009,disch,Huey,Huey,298.0616582,10^6 m3/s
+stream,frx_basin_dsch,2009,disch,Lost Seal,Lost Seal,807.6964159,10^6 m3/s
+stream,frx_basin_dsch,2009,disch,Von Guerard,Von Guerard,212.2029475,10^6 m3/s
+stream,frx_basin_dsch,2009,disch,Commonwealth,Commonwealth,621.9291577,10^6 m3/s
+stream,frx_basin_dsch,2009,disch,Total_FRX_basin,FRX_Q_x10e6,4032.767759,10^6 m3/s
+stream,frx_basin_dsch,2010,disch,Aiken,Aiken,145.9761679,10^6 m3/s
+stream,frx_basin_dsch,2010,disch,Canada,Canada,164.4778089,10^6 m3/s
+stream,frx_basin_dsch,2010,disch,Crescent,Crescent,73.77478006,10^6 m3/s
+stream,frx_basin_dsch,2010,disch,Delta,Delta,64.58921287,10^6 m3/s
+stream,frx_basin_dsch,2010,disch,Green,Green,130.4620533,10^6 m3/s
+stream,frx_basin_dsch,2010,disch,Huey,Huey,4.084999695,10^6 m3/s
+stream,frx_basin_dsch,2010,disch,Lost Seal,Lost Seal,138.7374548,10^6 m3/s
+stream,frx_basin_dsch,2010,disch,Von Guerard,Von Guerard,114.0523039,10^6 m3/s
+stream,frx_basin_dsch,2010,disch,Commonwealth,Commonwealth,204.0449145,10^6 m3/s
+stream,frx_basin_dsch,2010,disch,Total_FRX_basin,FRX_Q_x10e6,1040.199696,10^6 m3/s
+stream,frx_basin_dsch,2011,disch,Aiken,Aiken,741.4311514,10^6 m3/s
+stream,frx_basin_dsch,2011,disch,Canada,Canada,394.1169651,10^6 m3/s
+stream,frx_basin_dsch,2011,disch,Crescent,Crescent,145.7819452,10^6 m3/s
+stream,frx_basin_dsch,2011,disch,Delta,Delta,283.8133415,10^6 m3/s
+stream,frx_basin_dsch,2011,disch,Green,Green,311.259467,10^6 m3/s
+stream,frx_basin_dsch,2011,disch,Huey,Huey,129.1353785,10^6 m3/s
+stream,frx_basin_dsch,2011,disch,Lost Seal,Lost Seal,944.4567781,10^6 m3/s
+stream,frx_basin_dsch,2011,disch,Von Guerard,Von Guerard,240.389722,10^6 m3/s
+stream,frx_basin_dsch,2011,disch,Commonwealth,Commonwealth,656.9906589,10^6 m3/s
+stream,frx_basin_dsch,2011,disch,Total_FRX_basin,FRX_Q_x10e6,3847.375408,10^6 m3/s
+stream,frx_basin_dsch,2012,disch,Aiken,Aiken,198.0306328,10^6 m3/s
+stream,frx_basin_dsch,2012,disch,Canada,Canada,304.9917145,10^6 m3/s
+stream,frx_basin_dsch,2012,disch,Crescent,Crescent,138.2508681,10^6 m3/s
+stream,frx_basin_dsch,2012,disch,Delta,Delta,101.0101242,10^6 m3/s
+stream,frx_basin_dsch,2012,disch,Green,Green,195.2077409,10^6 m3/s
+stream,frx_basin_dsch,2012,disch,Huey,Huey,95.55585227,10^6 m3/s
+stream,frx_basin_dsch,2012,disch,Lost Seal,Lost Seal,337.8030324,10^6 m3/s
+stream,frx_basin_dsch,2012,disch,Von Guerard,Von Guerard,58.28504309,10^6 m3/s
+stream,frx_basin_dsch,2012,disch,Commonwealth,Commonwealth,270.0634645,10^6 m3/s
+stream,frx_basin_dsch,2012,disch,Total_FRX_basin,FRX_Q_x10e6,1699.198473,10^6 m3/s
+stream,frx_basin_dsch,2013,disch,Aiken,Aiken,182.2358781,10^6 m3/s
+stream,frx_basin_dsch,2013,disch,Canada,Canada,207.5473665,10^6 m3/s
+stream,frx_basin_dsch,2013,disch,Crescent,Crescent,89.72353886,10^6 m3/s
+stream,frx_basin_dsch,2013,disch,Delta,Delta,58.32151362,10^6 m3/s
+stream,frx_basin_dsch,2013,disch,Green,Green,274.1050232,10^6 m3/s
+stream,frx_basin_dsch,2013,disch,Huey,Huey,46.77521167,10^6 m3/s
+stream,frx_basin_dsch,2013,disch,Lost Seal,Lost Seal,289.0744866,10^6 m3/s
+stream,frx_basin_dsch,2013,disch,Von Guerard,Von Guerard,32.73149537,10^6 m3/s
+stream,frx_basin_dsch,2013,disch,Commonwealth,Commonwealth,206.9935926,10^6 m3/s
+stream,frx_basin_dsch,2013,disch,Total_FRX_basin,FRX_Q_x10e6,1387.508107,10^6 m3/s
 stream,stream_mat_biomass,1988,chla,orange,Orange mat chl-a,,ug/cm2
 stream,stream_mat_biomass,1988,AFDM,orange,Orange mat AFDM,,mg/cm2
 stream,stream_mat_biomass,1988,chla,black,Black mat chl-a,,ug/cm2
