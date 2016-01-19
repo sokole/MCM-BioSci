@@ -54,6 +54,9 @@ ddply(
 )
 
 
+i.y <- 'lake_ice_thickness__ice_thickness__ELB'
+i.y <- 'lake_ppr__PPR__ELB'
+
 # -- SiZer analysis loop
 for (i.y in y.list){
   try({
@@ -66,6 +69,7 @@ for (i.y in y.list){
     pdf(file = plot.name,
         width=6,
         height=6)
+    #     windows(width = 6, height = 6)
     
     # -- subset data -- using transformed data
     dat <- subset(dat.trans, id_data==i.y)
