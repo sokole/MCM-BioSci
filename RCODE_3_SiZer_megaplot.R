@@ -24,10 +24,13 @@ data.types<-as.character(unique(dat.siz.plot.long$data_type))
   # i.data.type <- data.types[1]
   # i.data.type <- data.types[2]
   # i.data.type <- data.types[3]
-  i.data.type <- data.types[4]
+  # i.data.type <- data.types[4]
   # i.data.type <- data.types[5]
+  i.data.type <- data.types[6]
   # i.data.type <- data.types[7]
   # i.data.type <- data.types[8]
+  # i.data.type <- data.types[9]
+
   # -- what data to plot
   # i.data.type <- 'nematodes'
   
