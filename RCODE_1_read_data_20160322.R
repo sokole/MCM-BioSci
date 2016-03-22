@@ -6,7 +6,7 @@ require(plyr)
 # ---------------------------------------
 # read data and data prep
 # ----------------------
-dat.raw<-read.csv('DATA_RAW_gooseff_biosci3.csv',
+dat.raw<-read.csv('DATA_RAW_gooseff_biosci4.csv',
                   stringsAsFactors = FALSE)
 
 # -- make a label variable to distinguish data subsets for SiZer models
