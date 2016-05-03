@@ -37,7 +37,9 @@ for(i.y in y.list){
       var = dat.temp[1,]$var,
       group = dat.temp[1,]$group,
       units = dat.temp[1,]$units,
-      siz.long
+      panel_label = dat.temp[1,]$panel_label,
+      siz.long,
+      stringsAsFactors = FALSE
     )
   )
 }
