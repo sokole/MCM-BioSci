@@ -29,19 +29,19 @@ data.types<-as.character(unique(dat.siz.plot.long$data_type))
 # -------------------------------
   # i.data.type <- data.types[i]
   # i.data.type <- data.types[1]
-  i.data.type <- data.types[2] 
-  i.data.type <- data.types[3]
-  i.data.type <- data.types[4]
-  i.data.type <- data.types[5]
-  i.data.type <- data.types[6]
-  i.data.type <- data.types[7]
-  i.data.type <- data.types[8]
-  i.data.type <- data.types[9] 
-  # i.data.type <- data.types[10] 
+  # i.data.type <- data.types[2]
+  # i.data.type <- data.types[3]
+  # i.data.type <- data.types[4]
+  # i.data.type <- data.types[5]
+  # i.data.type <- data.types[6]
+  # i.data.type <- data.types[7]
+  # i.data.type <- data.types[8]
+  # i.data.type <- data.types[9]
+  i.data.type <- data.types[10]
 
   # -- what data to plot
   # i.data.type <- 'nematodes'
-  
+
   # ----
   graphics.off()
   panel.width <- 2.25
@@ -55,15 +55,21 @@ data.types<-as.character(unique(dat.siz.plot.long$data_type))
   
   d.plot$panel_label <- gsub('\\n','\n',d.plot$panel_label, fixed = TRUE)
   
+  if(i.data.type == 'nematodes'){
+    d.plot$panel_label <- factor(d.plot$panel_label,
+                                 levels = c('Scottnema sp. (#/kg soil)',
+                                            'Eudorylaimus sp. (#/kg soil)'),
+                                 ordered = TRUE)
+  }
   # -- set plot size
   n.panels<-length(unique(as.character(d.plot$panel_label)))
 
+  # windows(
+  #   width = .8 + panel.width * n.panels, 
+  #   height = panel.height)
   pdf(file=plot.name,
-      width = .8 + panel.width * n.panels, 
+      width = .8 + panel.width * n.panels,
       height = panel.height)
-  # pdf(file=plot.name,
-  #     width = .8 + panel.width * n.panels, 
-  #     height = panel.height)
   
   # -- make plot
   ggplot(d.plot, 
@@ -85,7 +91,7 @@ data.types<-as.character(unique(dat.siz.plot.long$data_type))
     xlab('Year') +
     guides(fill = FALSE)
   
-  # ggsave(filename = plot.name)
-  # dev.off()
+  ggsave(filename = plot.name)
+  dev.off()
 
   cat(i.data.type)
