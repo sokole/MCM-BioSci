@@ -254,6 +254,13 @@ d.plot<-subset(dat.siz.plot.long,
 
 d.plot$panel_label <- gsub('\\n','\n',d.plot$panel_label, fixed = TRUE)
 
+if(i.data.type == 'nematodes'){
+  d.plot$panel_label <- factor(d.plot$panel_label,
+                               levels = c('Scottnema sp. (#/kg soil)',
+                                          'Eudorylaimus sp. (#/kg soil)'),
+                               ordered = TRUE)
+}
+
 plot_H <- ggplot(d.plot, aes(year, log10_h, fill=slope)) + 
   geom_raster() + 
   scale_fill_gradientn(colours = c('red2','gray','green3')) +
