@@ -118,7 +118,7 @@ plot_C <- ggplot(d.plot, aes(year, log10_h, fill=slope)) +
 
 #######################
 # panel D - ice thickness - 2 panels
-i.data.type <- data.types[7]
+i.data.type <- 'lake_ice_thickness'
 
 # -- subset data
 d.plot<-subset(dat.siz.plot.long,
