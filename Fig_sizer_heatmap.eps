@@ -1,0 +1,2804 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%BoundingBox: 90 18 522 774
+%%EndComments
+%%BeginProlog
+/bp  { gs gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+136.34 40.30 522.00 156.94 cl
+/bg { 1 setgray } def
+1 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+136.34 40.30 385.66 116.64 r p3
+93.49 21.49 522.00 774.00 cl
+157.09 69.32 335.85 129.20 cl
+/bg { 1 setgray } def
+157.09 69.32 178.76 59.88 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+157.09 78.16 m
+178.76 0 l
+o
+np
+157.09 89.29 m
+178.76 0 l
+o
+np
+157.09 100.42 m
+178.76 0 l
+o
+np
+157.09 111.55 m
+178.76 0 l
+o
+np
+157.09 122.68 m
+178.76 0 l
+o
+np
+182.80 69.32 m
+0 59.88 l
+o
+np
+217.98 69.32 m
+0 59.88 l
+o
+np
+253.15 69.32 m
+0 59.88 l
+o
+np
+288.32 69.32 m
+0 59.88 l
+o
+np
+323.50 69.32 m
+0 59.88 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+157.09 72.60 m
+178.76 0 l
+o
+np
+157.09 83.73 m
+178.76 0 l
+o
+np
+157.09 94.86 m
+178.76 0 l
+o
+np
+157.09 105.99 m
+178.76 0 l
+o
+np
+157.09 117.12 m
+178.76 0 l
+o
+np
+157.09 128.25 m
+178.76 0 l
+o
+np
+165.21 69.32 m
+0 59.88 l
+o
+np
+200.39 69.32 m
+0 59.88 l
+o
+np
+235.56 69.32 m
+0 59.88 l
+o
+np
+270.74 69.32 m
+0 59.88 l
+o
+np
+305.91 69.32 m
+0 59.88 l
+o
+gsave
+/DeviceRGB setcolorspace
+191.77 72.05 translate
+129.79 54.43 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 41 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -41 0 41] def
+end
+image
+bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+249.63 69.32 m
+0 59.88 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+157.09 69.32 178.76 59.88 r p1
+93.49 21.49 522.00 774.00 cl
+341.32 69.32 520.08 129.20 cl
+/bg { 1 setgray } def
+341.32 69.32 178.76 59.88 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+341.32 78.16 m
+178.76 0 l
+o
+np
+341.32 89.29 m
+178.76 0 l
+o
+np
+341.32 100.42 m
+178.76 0 l
+o
+np
+341.32 111.55 m
+178.76 0 l
+o
+np
+341.32 122.68 m
+178.76 0 l
+o
+np
+367.04 69.32 m
+0 59.88 l
+o
+np
+402.21 69.32 m
+0 59.88 l
+o
+np
+437.39 69.32 m
+0 59.88 l
+o
+np
+472.56 69.32 m
+0 59.88 l
+o
+np
+507.73 69.32 m
+0 59.88 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+341.32 72.60 m
+178.76 0 l
+o
+np
+341.32 83.73 m
+178.76 0 l
+o
+np
+341.32 94.86 m
+178.76 0 l
+o
+np
+341.32 105.99 m
+178.76 0 l
+o
+np
+341.32 117.12 m
+178.76 0 l
+o
+np
+341.32 128.25 m
+178.76 0 l
+o
+np
+349.45 69.32 m
+0 59.88 l
+o
+np
+384.62 69.32 m
+0 59.88 l
+o
+np
+419.80 69.32 m
+0 59.88 l
+o
+np
+454.97 69.32 m
+0 59.88 l
+o
+np
+490.15 69.32 m
+0 59.88 l
+o
+gsave
+/DeviceRGB setcolorspace
+376.01 72.05 translate
+129.79 54.43 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 41 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -41 0 41] def
+end
+image
+ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffbebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffbebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+433.87 69.32 m
+0 59.88 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+341.32 69.32 178.76 59.88 r p1
+93.49 21.49 522.00 774.00 cl
+157.09 129.20 335.85 147.34 cl
+157.09 129.20 335.85 147.34 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+157.09 129.20 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+185.06 134.68 (Eudor) 0 ta
+0.300 (ylaim) tb
+-0.100 (us sp) tb
+-0.350 (. \(#/kg soil\)) tb gr
+157.09 129.20 335.85 147.34 cl
+157.09 129.20 335.85 147.34 cl
+93.49 21.49 522.00 774.00 cl
+341.32 129.20 520.08 147.34 cl
+341.32 129.20 520.08 147.34 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+341.32 129.20 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+375.68 134.68 (Scottnema sp) 0 ta
+-0.350 (. \(#/kg soil\)) tb gr
+341.32 129.20 520.08 147.34 cl
+341.32 129.20 520.08 147.34 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+165.21 66.58 m
+0 2.74 l
+o
+np
+200.39 66.58 m
+0 2.74 l
+o
+np
+235.56 66.58 m
+0 2.74 l
+o
+np
+270.74 66.58 m
+0 2.74 l
+o
+np
+305.91 66.58 m
+0 2.74 l
+o
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+/Font1 findfont 9 s
+0.3020 setgray
+165.21 57.93 (1990) .5 0 t
+200.39 57.93 (1995) .5 0 t
+235.56 57.93 (2000) .5 0 t
+270.74 57.93 (2005) .5 0 t
+305.91 57.93 (2010) .5 0 t
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+349.45 66.58 m
+0 2.74 l
+o
+np
+384.62 66.58 m
+0 2.74 l
+o
+np
+419.80 66.58 m
+0 2.74 l
+o
+np
+454.97 66.58 m
+0 2.74 l
+o
+np
+490.15 66.58 m
+0 2.74 l
+o
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+/Font1 findfont 9 s
+0.3020 setgray
+349.45 57.93 (1990) .5 0 t
+384.62 57.93 (1995) .5 0 t
+419.80 57.93 (2000) .5 0 t
+454.97 57.93 (2005) .5 0 t
+490.15 57.93 (2010) .5 0 t
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+/Font1 findfont 10 s
+0.3020 setgray
+152.16 69.01 (0.6) 1 0 t
+152.16 80.14 (0.8) 1 0 t
+152.16 91.27 (1.0) 1 0 t
+152.16 102.40 (1.2) 1 0 t
+152.16 113.53 (1.4) 1 0 t
+152.16 124.66 (1.6) 1 0 t
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+154.35 72.60 m
+2.74 0 l
+o
+np
+154.35 83.73 m
+2.74 0 l
+o
+np
+154.35 94.86 m
+2.74 0 l
+o
+np
+154.35 105.99 m
+2.74 0 l
+o
+np
+154.35 117.12 m
+2.74 0 l
+o
+np
+154.35 128.25 m
+2.74 0 l
+o
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+/Font1 findfont 14 s
+0 setgray
+323.80 42.40 (Y) 0 ta
+-1.960 (ear) tb gr
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+136.34 149.41 522.00 243.48 cl
+/bg { 1 setgray } def
+1 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+136.34 149.41 385.66 94.06 r p3
+93.49 21.49 522.00 774.00 cl
+157.09 154.07 335.85 215.74 cl
+/bg { 1 setgray } def
+157.09 154.07 178.76 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+157.09 168.56 m
+178.76 0 l
+o
+np
+157.09 185.26 m
+178.76 0 l
+o
+np
+157.09 201.96 m
+178.76 0 l
+o
+np
+182.80 154.07 m
+0 61.67 l
+o
+np
+217.98 154.07 m
+0 61.67 l
+o
+np
+253.15 154.07 m
+0 61.67 l
+o
+np
+288.32 154.07 m
+0 61.67 l
+o
+np
+323.50 154.07 m
+0 61.67 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+157.09 160.21 m
+178.76 0 l
+o
+np
+157.09 176.91 m
+178.76 0 l
+o
+np
+157.09 193.61 m
+178.76 0 l
+o
+np
+157.09 210.30 m
+178.76 0 l
+o
+np
+165.21 154.07 m
+0 61.67 l
+o
+np
+200.39 154.07 m
+0 61.67 l
+o
+np
+235.56 154.07 m
+0 61.67 l
+o
+np
+270.74 154.07 m
+0 61.67 l
+o
+np
+305.91 154.07 m
+0 61.67 l
+o
+gsave
+/DeviceRGB setcolorspace
+169.17 157.38 translate
+157.93 55.55 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 33 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -33 0 33] def
+end
+image
+bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffbebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffbebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffbebebebebebebebebebebebebebebebebebeee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebeee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebeee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+249.63 154.07 m
+0 61.67 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+157.09 154.07 178.76 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+341.32 154.07 520.08 215.74 cl
+/bg { 1 setgray } def
+341.32 154.07 178.76 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+341.32 168.56 m
+178.76 0 l
+o
+np
+341.32 185.26 m
+178.76 0 l
+o
+np
+341.32 201.96 m
+178.76 0 l
+o
+np
+367.04 154.07 m
+0 61.67 l
+o
+np
+402.21 154.07 m
+0 61.67 l
+o
+np
+437.39 154.07 m
+0 61.67 l
+o
+np
+472.56 154.07 m
+0 61.67 l
+o
+np
+507.73 154.07 m
+0 61.67 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+341.32 160.21 m
+178.76 0 l
+o
+np
+341.32 176.91 m
+178.76 0 l
+o
+np
+341.32 193.61 m
+178.76 0 l
+o
+np
+341.32 210.30 m
+178.76 0 l
+o
+np
+349.45 154.07 m
+0 61.67 l
+o
+np
+384.62 154.07 m
+0 61.67 l
+o
+np
+419.80 154.07 m
+0 61.67 l
+o
+np
+454.97 154.07 m
+0 61.67 l
+o
+np
+490.15 154.07 m
+0 61.67 l
+o
+gsave
+/DeviceRGB setcolorspace
+370.47 156.88 translate
+140.87 53.53 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 33 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -33 0 33] def
+end
+image
+ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebeffffffbebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebeffffffffffffffffffbebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebeffffffffffffffffffffffffffffffbebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffbebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+433.87 154.07 m
+0 61.67 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+341.32 154.07 178.76 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+157.09 215.74 335.85 233.88 cl
+157.09 215.74 335.85 233.88 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+157.09 215.74 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+190.05 221.22 (Lak) 0 ta
+-0.200 (e PPR East L Bonne) tb
+-0.200 (y) tb gr
+157.09 215.74 335.85 233.88 cl
+157.09 215.74 335.85 233.88 cl
+93.49 21.49 522.00 774.00 cl
+341.32 215.74 520.08 233.88 cl
+341.32 215.74 520.08 233.88 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+341.32 215.74 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+372.90 221.22 (Lak) 0 ta
+-0.200 (e PPR W) tb
+-0.300 (est L Bonne) tb
+-0.200 (y) tb gr
+341.32 215.74 520.08 233.88 cl
+341.32 215.74 520.08 233.88 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+/Font1 findfont 10 s
+0.3020 setgray
+152.16 156.62 (0.4) 1 0 t
+152.16 173.32 (0.8) 1 0 t
+152.16 190.02 (1.2) 1 0 t
+152.16 206.71 (1.6) 1 0 t
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+154.35 160.21 m
+2.74 0 l
+o
+np
+154.35 176.91 m
+2.74 0 l
+o
+np
+154.35 193.61 m
+2.74 0 l
+o
+np
+154.35 210.30 m
+2.74 0 l
+o
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+136.34 235.95 522.00 330.02 cl
+/bg { 1 setgray } def
+1 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+136.34 235.95 385.66 94.06 r p3
+93.49 21.49 522.00 774.00 cl
+157.09 240.61 335.85 302.28 cl
+/bg { 1 setgray } def
+157.09 240.61 178.76 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+157.09 254.53 m
+178.76 0 l
+o
+np
+157.09 273.32 m
+178.76 0 l
+o
+np
+157.09 292.12 m
+178.76 0 l
+o
+np
+182.80 240.61 m
+0 61.67 l
+o
+np
+217.98 240.61 m
+0 61.67 l
+o
+np
+253.15 240.61 m
+0 61.67 l
+o
+np
+288.32 240.61 m
+0 61.67 l
+o
+np
+323.50 240.61 m
+0 61.67 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+157.09 245.13 m
+178.76 0 l
+o
+np
+157.09 263.93 m
+178.76 0 l
+o
+np
+157.09 282.72 m
+178.76 0 l
+o
+np
+157.09 301.52 m
+178.76 0 l
+o
+np
+165.21 240.61 m
+0 61.67 l
+o
+np
+200.39 240.61 m
+0 61.67 l
+o
+np
+235.56 240.61 m
+0 61.67 l
+o
+np
+270.74 240.61 m
+0 61.67 l
+o
+np
+305.91 240.61 m
+0 61.67 l
+o
+gsave
+/DeviceRGB setcolorspace
+200.21 243.42 translate
+126.98 56.06 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 39 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -39 0 39] def
+end
+image
+bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebeee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebeee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebeee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+249.63 240.61 m
+0 61.67 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+157.09 240.61 178.76 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+341.32 240.61 520.08 302.28 cl
+/bg { 1 setgray } def
+341.32 240.61 178.76 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+341.32 254.53 m
+178.76 0 l
+o
+np
+341.32 273.32 m
+178.76 0 l
+o
+np
+341.32 292.12 m
+178.76 0 l
+o
+np
+367.04 240.61 m
+0 61.67 l
+o
+np
+402.21 240.61 m
+0 61.67 l
+o
+np
+437.39 240.61 m
+0 61.67 l
+o
+np
+472.56 240.61 m
+0 61.67 l
+o
+np
+507.73 240.61 m
+0 61.67 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+341.32 245.13 m
+178.76 0 l
+o
+np
+341.32 263.93 m
+178.76 0 l
+o
+np
+341.32 282.72 m
+178.76 0 l
+o
+np
+341.32 301.52 m
+178.76 0 l
+o
+np
+349.45 240.61 m
+0 61.67 l
+o
+np
+384.62 240.61 m
+0 61.67 l
+o
+np
+419.80 240.61 m
+0 61.67 l
+o
+np
+454.97 240.61 m
+0 61.67 l
+o
+np
+490.15 240.61 m
+0 61.67 l
+o
+gsave
+/DeviceRGB setcolorspace
+398.52 254.61 translate
+112.91 42.46 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 41 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -41 0 41] def
+end
+image
+00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+433.87 240.61 m
+0 61.67 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+341.32 240.61 178.76 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+157.09 302.28 335.85 320.42 cl
+157.09 302.28 335.85 320.42 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+157.09 302.28 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+175.05 307.76 (Underw) 0 ta
+-0.150 (ater P) tb
+-1.200 (AR East L Bonne) tb
+-0.200 (y) tb gr
+157.09 302.28 335.85 320.42 cl
+157.09 302.28 335.85 320.42 cl
+93.49 21.49 522.00 774.00 cl
+341.32 302.28 520.08 320.42 cl
+341.32 302.28 520.08 320.42 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+341.32 302.28 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+357.90 307.76 (Underw) 0 ta
+-0.150 (ater P) tb
+-1.200 (AR W) tb
+-0.300 (est L Bonne) tb
+-0.200 (y) tb gr
+341.32 302.28 520.08 320.42 cl
+341.32 302.28 520.08 320.42 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+/Font1 findfont 10 s
+0.3020 setgray
+152.16 241.54 (0.4) 1 0 t
+152.16 260.34 (0.8) 1 0 t
+152.16 279.13 (1.2) 1 0 t
+152.16 297.93 (1.6) 1 0 t
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+154.35 245.13 m
+2.74 0 l
+o
+np
+154.35 263.93 m
+2.74 0 l
+o
+np
+154.35 282.72 m
+2.74 0 l
+o
+np
+154.35 301.52 m
+2.74 0 l
+o
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+136.34 322.49 337.74 416.56 cl
+/bg { 1 setgray } def
+1 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+136.34 322.49 201.40 94.06 r p3
+93.49 21.49 522.00 774.00 cl
+157.09 327.15 335.82 388.82 cl
+/bg { 1 setgray } def
+157.09 327.15 178.73 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+157.09 341.98 m
+178.73 0 l
+o
+np
+157.09 358.59 m
+178.73 0 l
+o
+np
+157.09 375.21 m
+178.73 0 l
+o
+np
+182.80 327.15 m
+0 61.67 l
+o
+np
+217.97 327.15 m
+0 61.67 l
+o
+np
+253.14 327.15 m
+0 61.67 l
+o
+np
+288.31 327.15 m
+0 61.67 l
+o
+np
+323.48 327.15 m
+0 61.67 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+157.09 333.67 m
+178.73 0 l
+o
+np
+157.09 350.29 m
+178.73 0 l
+o
+np
+157.09 366.90 m
+178.73 0 l
+o
+np
+157.09 383.51 m
+178.73 0 l
+o
+np
+165.21 327.15 m
+0 61.67 l
+o
+np
+200.38 327.15 m
+0 61.67 l
+o
+np
+235.55 327.15 m
+0 61.67 l
+o
+np
+270.72 327.15 m
+0 61.67 l
+o
+np
+305.89 327.15 m
+0 61.67 l
+o
+gsave
+/DeviceRGB setcolorspace
+170.81 329.95 translate
+154.84 56.06 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 41 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -41 0 41] def
+end
+image
+ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebeee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+249.62 327.15 m
+0 61.67 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+157.09 327.15 178.73 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+157.09 388.82 335.82 406.96 cl
+157.09 388.82 335.82 406.96 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+157.09 388.82 178.73 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+177.52 394.30 (Lak) 0 ta
+-0.200 (e Bonne) tb
+-0.200 (y Le) tb
+-0.300 (v) tb
+-0.250 (el Since 1991) tb gr
+157.09 388.82 335.82 406.96 cl
+157.09 388.82 335.82 406.96 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+/Font1 findfont 10 s
+0.3020 setgray
+152.16 330.08 (0.4) 1 0 t
+152.16 346.70 (0.8) 1 0 t
+152.16 363.31 (1.2) 1 0 t
+152.16 379.92 (1.6) 1 0 t
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+154.35 333.67 m
+2.74 0 l
+o
+np
+154.35 350.29 m
+2.74 0 l
+o
+np
+154.35 366.90 m
+2.74 0 l
+o
+np
+154.35 383.51 m
+2.74 0 l
+o
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+136.34 409.03 522.00 503.10 cl
+/bg { 1 setgray } def
+1 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+136.34 409.03 385.66 94.06 r p3
+93.49 21.49 522.00 774.00 cl
+157.09 413.69 335.85 475.36 cl
+/bg { 1 setgray } def
+157.09 413.69 178.76 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+157.09 422.66 m
+178.76 0 l
+o
+np
+157.09 433.84 m
+178.76 0 l
+o
+np
+157.09 445.03 m
+178.76 0 l
+o
+np
+157.09 456.22 m
+178.76 0 l
+o
+np
+157.09 467.41 m
+178.76 0 l
+o
+np
+182.80 413.69 m
+0 61.67 l
+o
+np
+217.98 413.69 m
+0 61.67 l
+o
+np
+253.15 413.69 m
+0 61.67 l
+o
+np
+288.32 413.69 m
+0 61.67 l
+o
+np
+323.50 413.69 m
+0 61.67 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+157.09 417.06 m
+178.76 0 l
+o
+np
+157.09 428.25 m
+178.76 0 l
+o
+np
+157.09 439.44 m
+178.76 0 l
+o
+np
+157.09 450.63 m
+178.76 0 l
+o
+np
+157.09 461.81 m
+178.76 0 l
+o
+np
+157.09 473.00 m
+178.76 0 l
+o
+np
+165.21 413.69 m
+0 61.67 l
+o
+np
+200.39 413.69 m
+0 61.67 l
+o
+np
+235.56 413.69 m
+0 61.67 l
+o
+np
+270.74 413.69 m
+0 61.67 l
+o
+np
+305.91 413.69 m
+0 61.67 l
+o
+gsave
+/DeviceRGB setcolorspace
+191.68 416.49 translate
+133.66 56.06 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 41 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -41 0 41] def
+end
+image
+ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebeffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+249.63 413.69 m
+0 61.67 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+157.09 413.69 178.76 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+341.32 413.69 520.08 475.36 cl
+/bg { 1 setgray } def
+341.32 413.69 178.76 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+341.32 422.66 m
+178.76 0 l
+o
+np
+341.32 433.84 m
+178.76 0 l
+o
+np
+341.32 445.03 m
+178.76 0 l
+o
+np
+341.32 456.22 m
+178.76 0 l
+o
+np
+341.32 467.41 m
+178.76 0 l
+o
+np
+367.04 413.69 m
+0 61.67 l
+o
+np
+402.21 413.69 m
+0 61.67 l
+o
+np
+437.39 413.69 m
+0 61.67 l
+o
+np
+472.56 413.69 m
+0 61.67 l
+o
+np
+507.73 413.69 m
+0 61.67 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+341.32 417.06 m
+178.76 0 l
+o
+np
+341.32 428.25 m
+178.76 0 l
+o
+np
+341.32 439.44 m
+178.76 0 l
+o
+np
+341.32 450.63 m
+178.76 0 l
+o
+np
+341.32 461.81 m
+178.76 0 l
+o
+np
+341.32 473.00 m
+178.76 0 l
+o
+np
+349.45 413.69 m
+0 61.67 l
+o
+np
+384.62 413.69 m
+0 61.67 l
+o
+np
+419.80 413.69 m
+0 61.67 l
+o
+np
+454.97 413.69 m
+0 61.67 l
+o
+np
+490.15 413.69 m
+0 61.67 l
+o
+gsave
+/DeviceRGB setcolorspace
+375.92 416.49 translate
+133.66 56.06 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 41 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -41 0 41] def
+end
+image
+ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+433.87 413.69 m
+0 61.67 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+341.32 413.69 178.76 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+157.09 475.36 335.85 493.50 cl
+157.09 475.36 335.85 493.50 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+157.09 475.36 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+203.96 480.84 (Nostoc sp) 0 ta
+-0.350 (. \(AFDM\)) tb gr
+157.09 475.36 335.85 493.50 cl
+157.09 475.36 335.85 493.50 cl
+93.49 21.49 522.00 774.00 cl
+341.32 475.36 520.08 493.50 cl
+341.32 475.36 520.08 493.50 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+341.32 475.36 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+377.09 480.84 (Phor) 0 ta
+0.250 (midium sp) tb
+-0.350 (. \(AFDM\)) tb gr
+341.32 475.36 520.08 493.50 cl
+341.32 475.36 520.08 493.50 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+/Font1 findfont 10 s
+0.3020 setgray
+152.16 413.47 (0.6) 1 0 t
+152.16 424.66 (0.8) 1 0 t
+152.16 435.85 (1.0) 1 0 t
+152.16 447.04 (1.2) 1 0 t
+152.16 458.22 (1.4) 1 0 t
+152.16 469.41 (1.6) 1 0 t
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+154.35 417.06 m
+2.74 0 l
+o
+np
+154.35 428.25 m
+2.74 0 l
+o
+np
+154.35 439.44 m
+2.74 0 l
+o
+np
+154.35 450.63 m
+2.74 0 l
+o
+np
+154.35 461.81 m
+2.74 0 l
+o
+np
+154.35 473.00 m
+2.74 0 l
+o
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+136.34 495.57 522.00 589.63 cl
+/bg { 1 setgray } def
+1 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+136.34 495.57 385.66 94.06 r p3
+93.49 21.49 522.00 774.00 cl
+157.09 500.23 335.85 561.90 cl
+/bg { 1 setgray } def
+157.09 500.23 178.76 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+157.09 509.20 m
+178.76 0 l
+o
+np
+157.09 520.38 m
+178.76 0 l
+o
+np
+157.09 531.57 m
+178.76 0 l
+o
+np
+157.09 542.76 m
+178.76 0 l
+o
+np
+157.09 553.95 m
+178.76 0 l
+o
+np
+182.80 500.23 m
+0 61.67 l
+o
+np
+217.98 500.23 m
+0 61.67 l
+o
+np
+253.15 500.23 m
+0 61.67 l
+o
+np
+288.32 500.23 m
+0 61.67 l
+o
+np
+323.50 500.23 m
+0 61.67 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+157.09 503.60 m
+178.76 0 l
+o
+np
+157.09 514.79 m
+178.76 0 l
+o
+np
+157.09 525.98 m
+178.76 0 l
+o
+np
+157.09 537.16 m
+178.76 0 l
+o
+np
+157.09 548.35 m
+178.76 0 l
+o
+np
+157.09 559.54 m
+178.76 0 l
+o
+np
+165.21 500.23 m
+0 61.67 l
+o
+np
+200.39 500.23 m
+0 61.67 l
+o
+np
+235.56 500.23 m
+0 61.67 l
+o
+np
+270.74 500.23 m
+0 61.67 l
+o
+np
+305.91 500.23 m
+0 61.67 l
+o
+gsave
+/DeviceRGB setcolorspace
+191.68 503.03 translate
+133.66 56.06 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 41 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -41 0 41] def
+end
+image
+ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00ffffffffffffffffffffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebeffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+249.63 500.23 m
+0 61.67 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+157.09 500.23 178.76 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+341.32 500.23 520.08 561.90 cl
+/bg { 1 setgray } def
+341.32 500.23 178.76 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+341.32 509.20 m
+178.76 0 l
+o
+np
+341.32 520.38 m
+178.76 0 l
+o
+np
+341.32 531.57 m
+178.76 0 l
+o
+np
+341.32 542.76 m
+178.76 0 l
+o
+np
+341.32 553.95 m
+178.76 0 l
+o
+np
+367.04 500.23 m
+0 61.67 l
+o
+np
+402.21 500.23 m
+0 61.67 l
+o
+np
+437.39 500.23 m
+0 61.67 l
+o
+np
+472.56 500.23 m
+0 61.67 l
+o
+np
+507.73 500.23 m
+0 61.67 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+341.32 503.60 m
+178.76 0 l
+o
+np
+341.32 514.79 m
+178.76 0 l
+o
+np
+341.32 525.98 m
+178.76 0 l
+o
+np
+341.32 537.16 m
+178.76 0 l
+o
+np
+341.32 548.35 m
+178.76 0 l
+o
+np
+341.32 559.54 m
+178.76 0 l
+o
+np
+349.45 500.23 m
+0 61.67 l
+o
+np
+384.62 500.23 m
+0 61.67 l
+o
+np
+419.80 500.23 m
+0 61.67 l
+o
+np
+454.97 500.23 m
+0 61.67 l
+o
+np
+490.15 500.23 m
+0 61.67 l
+o
+gsave
+/DeviceRGB setcolorspace
+375.92 503.03 translate
+133.66 56.06 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 41 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -41 0 41] def
+end
+image
+ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+433.87 500.23 m
+0 61.67 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+341.32 500.23 178.76 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+157.09 561.90 335.85 580.03 cl
+157.09 561.90 335.85 580.03 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+157.09 561.90 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+203.96 567.37 (Nostoc sp) 0 ta
+-0.350 (. \(AFDM\)) tb gr
+157.09 561.90 335.85 580.03 cl
+157.09 561.90 335.85 580.03 cl
+93.49 21.49 522.00 774.00 cl
+341.32 561.90 520.08 580.03 cl
+341.32 561.90 520.08 580.03 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+341.32 561.90 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+377.09 567.37 (Phor) 0 ta
+0.250 (midium sp) tb
+-0.350 (. \(AFDM\)) tb gr
+341.32 561.90 520.08 580.03 cl
+341.32 561.90 520.08 580.03 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+/Font1 findfont 10 s
+0.3020 setgray
+152.16 500.01 (0.6) 1 0 t
+152.16 511.20 (0.8) 1 0 t
+152.16 522.39 (1.0) 1 0 t
+152.16 533.57 (1.2) 1 0 t
+152.16 544.76 (1.4) 1 0 t
+152.16 555.95 (1.6) 1 0 t
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+154.35 503.60 m
+2.74 0 l
+o
+np
+154.35 514.79 m
+2.74 0 l
+o
+np
+154.35 525.98 m
+2.74 0 l
+o
+np
+154.35 537.16 m
+2.74 0 l
+o
+np
+154.35 548.35 m
+2.74 0 l
+o
+np
+154.35 559.54 m
+2.74 0 l
+o
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+136.34 582.11 337.74 676.17 cl
+/bg { 1 setgray } def
+1 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+136.34 582.11 201.40 94.06 r p3
+93.49 21.49 522.00 774.00 cl
+157.09 586.77 335.82 648.43 cl
+/bg { 1 setgray } def
+157.09 586.77 178.73 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+157.09 602.44 m
+178.73 0 l
+o
+np
+157.09 618.73 m
+178.73 0 l
+o
+np
+157.09 635.03 m
+178.73 0 l
+o
+np
+182.80 586.77 m
+0 61.66 l
+o
+np
+217.97 586.77 m
+0 61.66 l
+o
+np
+253.14 586.77 m
+0 61.66 l
+o
+np
+288.31 586.77 m
+0 61.66 l
+o
+np
+323.48 586.77 m
+0 61.66 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+157.09 594.29 m
+178.73 0 l
+o
+np
+157.09 610.58 m
+178.73 0 l
+o
+np
+157.09 626.88 m
+178.73 0 l
+o
+np
+157.09 643.18 m
+178.73 0 l
+o
+np
+165.21 586.77 m
+0 61.66 l
+o
+np
+200.38 586.77 m
+0 61.66 l
+o
+np
+235.55 586.77 m
+0 61.66 l
+o
+np
+270.72 586.77 m
+0 61.66 l
+o
+np
+305.89 586.77 m
+0 61.66 l
+o
+gsave
+/DeviceRGB setcolorspace
+170.31 589.57 translate
+154.74 56.06 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 41 def
+  /Height 41 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [41 0 0 -41 0 41] def
+end
+image
+bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+249.62 586.77 m
+0 61.66 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+157.09 586.77 178.73 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+157.09 648.43 335.82 666.57 cl
+157.09 648.43 335.82 666.57 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+157.09 648.43 178.73 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+204.49 653.91 (Ann) 0 ta
+-0.100 (ual Streamflo) tb
+-0.150 (w) tb gr
+157.09 648.43 335.82 666.57 cl
+157.09 648.43 335.82 666.57 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+/Font1 findfont 10 s
+0.3020 setgray
+152.16 590.70 (0.4) 1 0 t
+152.16 606.99 (0.8) 1 0 t
+152.16 623.29 (1.2) 1 0 t
+152.16 639.59 (1.6) 1 0 t
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+154.35 594.29 m
+2.74 0 l
+o
+np
+154.35 610.58 m
+2.74 0 l
+o
+np
+154.35 626.88 m
+2.74 0 l
+o
+np
+154.35 643.18 m
+2.74 0 l
+o
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+136.34 668.65 522.00 762.71 cl
+/bg { 1 setgray } def
+1 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+136.34 668.65 385.66 94.06 r p3
+93.49 21.49 522.00 774.00 cl
+157.09 673.31 335.85 734.97 cl
+/bg { 1 setgray } def
+157.09 673.31 178.76 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+157.09 673.37 m
+178.76 0 l
+o
+np
+157.09 693.37 m
+178.76 0 l
+o
+np
+157.09 713.36 m
+178.76 0 l
+o
+np
+157.09 733.36 m
+178.76 0 l
+o
+np
+182.80 673.31 m
+0 61.66 l
+o
+np
+217.98 673.31 m
+0 61.66 l
+o
+np
+253.15 673.31 m
+0 61.66 l
+o
+np
+288.32 673.31 m
+0 61.66 l
+o
+np
+323.50 673.31 m
+0 61.66 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+157.09 683.37 m
+178.76 0 l
+o
+np
+157.09 703.37 m
+178.76 0 l
+o
+np
+157.09 723.36 m
+178.76 0 l
+o
+np
+165.21 673.31 m
+0 61.66 l
+o
+np
+200.39 673.31 m
+0 61.66 l
+o
+np
+235.56 673.31 m
+0 61.66 l
+o
+np
+270.74 673.31 m
+0 61.66 l
+o
+np
+305.91 673.31 m
+0 61.66 l
+o
+gsave
+/DeviceRGB setcolorspace
+166.53 676.11 translate
+158.28 56.06 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 37 def
+  /Height 33 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [37 0 0 -33 0 33] def
+end
+image
+ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeee0000ee0000ee0000ee0000bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd00ffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd00ffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd00ffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd00ffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd00ffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd00ffffffffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+249.63 673.31 m
+0 61.66 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+157.09 673.31 178.76 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+341.32 673.31 520.08 734.97 cl
+/bg { 1 setgray } def
+341.32 673.31 178.76 61.67 r p2
+0.9216 setgray
+0.53 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+341.32 673.37 m
+178.76 0 l
+o
+np
+341.32 693.37 m
+178.76 0 l
+o
+np
+341.32 713.36 m
+178.76 0 l
+o
+np
+341.32 733.36 m
+178.76 0 l
+o
+np
+367.04 673.31 m
+0 61.66 l
+o
+np
+402.21 673.31 m
+0 61.66 l
+o
+np
+437.39 673.31 m
+0 61.66 l
+o
+np
+472.56 673.31 m
+0 61.66 l
+o
+np
+507.73 673.31 m
+0 61.66 l
+o
+1.07 setlinewidth
+[] 0 setdash
+np
+341.32 683.37 m
+178.76 0 l
+o
+np
+341.32 703.37 m
+178.76 0 l
+o
+np
+341.32 723.36 m
+178.76 0 l
+o
+np
+349.45 673.31 m
+0 61.66 l
+o
+np
+384.62 673.31 m
+0 61.66 l
+o
+np
+419.80 673.31 m
+0 61.66 l
+o
+np
+454.97 673.31 m
+0 61.66 l
+o
+np
+490.15 673.31 m
+0 61.66 l
+o
+gsave
+/DeviceRGB setcolorspace
+350.77 676.11 translate
+158.28 56.06 scale
+8 dict dup begin
+  /ImageType 1 def
+  /Width 37 def
+  /Height 33 def
+  /BitsPerComponent 8 def
+  /Decode [0 1 0 1 0 1] def
+  /DataSource currentfile /ASCIIHexDecode filter def
+  /ImageMatrix [37 0 0 -33 0 33] def
+end
+image
+00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebe00cd0000cd0000cd0000cd0000cd0000cd00bebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffbebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebebeffffffffffffffffffffffff>
+grestore
+0 setgray
+2.13 setlinewidth
+[ 14.94 6.40] 0 setdash
+np
+433.87 673.31 m
+0 61.66 l
+o
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+341.32 673.31 178.76 61.67 r p1
+93.49 21.49 522.00 774.00 cl
+157.09 734.97 335.85 753.11 cl
+157.09 734.97 335.85 753.11 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+157.09 734.97 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+176.17 740.45 (Mean Summer Air T) 0 ta
+-1.200 (emper) tb
+-0.100 (ature) tb gr
+157.09 734.97 335.85 753.11 cl
+157.09 734.97 335.85 753.11 cl
+93.49 21.49 522.00 774.00 cl
+341.32 734.97 520.08 753.11 cl
+341.32 734.97 520.08 753.11 cl
+/bg { 0.8510 setgray } def
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+341.32 734.97 178.76 18.14 r p3
+/Font1 findfont 10 s
+0.1020 setgray
+430.70 740.45 (Mean Summer Solar Flux) .5 0 t
+341.32 734.97 520.08 753.11 cl
+341.32 734.97 520.08 753.11 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+/Font1 findfont 10 s
+0.3020 setgray
+152.16 679.78 (0.5) 1 0 t
+152.16 699.78 (1.0) 1 0 t
+152.16 719.77 (1.5) 1 0 t
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+0.2000 setgray
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+154.35 683.37 m
+2.74 0 l
+o
+np
+154.35 703.37 m
+2.74 0 l
+o
+np
+154.35 723.36 m
+2.74 0 l
+o
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+93.49 21.49 522.00 774.00 cl
+/Font2 findfont 16 s
+0 setgray
+114.91 734.19 (a) -0.50 0 t
+114.91 647.65 (b) -0.50 0 t
+114.91 561.11 (c) -0.50 0 t
+114.91 474.58 (d) -0.50 0 t
+114.91 388.04 (e) -0.50 0 t
+114.91 301.50 (f) -0.50 0 t
+114.91 214.96 (g) -0.50 0 t
+114.91 128.42 (h) -0.50 0 t
+/Font1 findfont 14 s
+106.40 348.06 (Bandwidth) 0 90 t
+/Font5 findfont 14 s
+106.40 413.43 ( ) 0 90 t
+106.40 416.93 ( ) 0 90 t
+/Font5 findfont 18 s
+106.40 420.43 (\() 0 90 t
+/Font1 findfont 14 s
+106.40 426.42 (l) 0 90 t
+106.40 429.53 (o) 0 90 t
+106.40 437.32 (g) 0 90 t
+/Font1 findfont 10 s
+108.96 445.10 (10) 0 90 t
+/Font1 findfont 14 s
+106.40 456.22 (h) 0 90 t
+/Font5 findfont 18 s
+106.40 464.00 (\)) 0 90 t
+93.49 21.49 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+90.00 18.00 522.00 774.00 cl
+ep
+%%Trailer
+%%Pages: 1
+%%EOF
