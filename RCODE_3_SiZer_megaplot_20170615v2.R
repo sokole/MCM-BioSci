@@ -307,8 +307,8 @@ ggdraw() +
             width_panel_2, fig_height) +
   draw_plot(plot_E, left_marg, bottom_marg + bottom_fig_spacing + 2*fig_spacing, 
             width_panel_1, fig_height) +
-  draw_plot(plot_D, left_marg, bottom_marg + bottom_fig_spacing + 3*fig_spacing, 
-            width_panel_2, fig_height) +
+  draw_plot(plot_D, left_marg - .0125, bottom_marg + bottom_fig_spacing + 3*fig_spacing, 
+            width_panel_2 + .0125, fig_height) +
   draw_plot(plot_C, left_marg, bottom_marg + bottom_fig_spacing + 4*fig_spacing, 
             width_panel_2, fig_height) +
   draw_plot(plot_B, left_marg, bottom_marg + bottom_fig_spacing + 5*fig_spacing, 
